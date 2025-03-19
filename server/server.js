@@ -27,6 +27,8 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
 
+
+
 // Endpoint to send all items in groceries table in JSON
 app.get('/groceries/all', async(req, res) => {
     try {

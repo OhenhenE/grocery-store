@@ -1,6 +1,11 @@
+import { BrowserRouter as  Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import Search from "./Search";
+// import AllGroceries from "./components/AllGroceries";
+
 function Header(){
 
-
+    const [groceries, setGroceries] = useState([]);
     return (
 
         <>
@@ -46,10 +51,7 @@ function Header(){
                     </ul>
                   </li>
                 </ul>
-                <form className="d-flex" role="search">
-                  <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                  <button className="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <Search setData={setGroceries} />
                 <Link to="/Login" className="btn btn-primary ms-3">Sign In / Register</Link>
                 <Link to="/" className="btn btn-primary ms-3">Past Orders</Link>
                 <Link to="/CartPage" className="btn btn-outline-dark ms-2">

@@ -8,7 +8,9 @@ import LoginForm from "./components/LoginForm";
 import CartPage from "./components/CartPage";
 import Register from "./components/Register";
 import Search from "./components/Search";
+import SearchResults from "./components/SearchResults";
 import Header from "./components/Header";
+import AllGroceries from "./components/AllGroceries";
 
 function App() {
   const [groceries, setGroceries] = useState([]);
@@ -33,9 +35,15 @@ function App() {
 
   return (
     <>
+    <Router>
+      
+    </Router>
       <Header>
         <h1>Header here</h1>
       </Header>
+     <AllGroceries data={groceries}>
+      <h1>All groceries here</h1>
+     </AllGroceries>
     </>
     // <Router>
     //   <AuthProvider>

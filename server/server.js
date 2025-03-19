@@ -30,7 +30,7 @@ app.listen(PORT, () => {
 // Endpoint to send all items in groceries table in JSON
 app.get('/groceries/all', async(req, res) => {
     try {
-        const result = await pool.query('SELECT * FROM grocery_items');
+        const result = await pool.query('SELECT * FROM grocery_items LIMIT 20');
         const groceries = result.rows;
         res.json(groceries);
     } catch (err) {
@@ -72,6 +72,8 @@ app.get('/groceries/:category', async(req, res) => {
 app.post('/groceries/search/', async(req, res) => {
     try {
         const {searchTerm} = req.body;
+        console.log("I am here")
+        console.log(searchTerm);
         const query = `
             SELECT * 
             FROM grocery_items 

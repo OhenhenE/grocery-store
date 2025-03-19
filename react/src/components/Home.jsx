@@ -1,8 +1,12 @@
-function Home() {
+import GroceryCardList from "./GroceryCardList";
+import Header from "./Header";
 
-
+function Home(props) {
     return(
-        <h1>Home page func.</h1>
+        <>
+            <Header setGroceryData={props.setGroceryData} />
+            <GroceryCardList data={props.grocery_data}/>
+        </>
     );
 }
 

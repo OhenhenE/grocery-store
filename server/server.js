@@ -17,8 +17,8 @@ const { Pool } = pg;
 // PostgreSQL pool configuration
 const pool = new Pool({
     user: 'postgres',
-    host: process.env.POSTGRES_HOST,
-    database: process.env.POSTGRES_DB,
+    host: 'localhost',
+    database: 'grocery_store',
     password: 'postgres',
     port: 5432,
 });
@@ -43,8 +43,8 @@ app.get('/groceries/all', async(req, res) => {
 app.get('/groceries/index/:id', async(req, res) => {
     try {
         const {id} = req.params;
-        const result = await pool.query('SELECT * FROM grocery_items WHERE grocery_id = $1', +id);
-        const grocery_item = result.rows;
+        const result = await pool.query('SELECT * FROM grocery_items WHERE grocery_id = $1', [id]);
+        const grocery_item = result.rows[0];
         res.json(grocery_item);
     } catch (err) {
         const {id} = req.params;
@@ -57,7 +57,7 @@ app.get('/groceries/index/:id', async(req, res) => {
 app.get('/groceries/:category', async(req, res) => {
     try {
         const {category} = req.params;
-        const result = await pool.query('SELECT * FROM grocery_items WHERE category = $1', category);
+        const result = await pool.query('SELECT * FROM grocery_items WHERE LOWER(category) = LOWER($1)', [category]);
         const groceries = result.rows;
         res.json(groceries);
     } catch (err) {
@@ -76,7 +76,8 @@ app.post('/groceries/search/', async(req, res) => {
             SELECT * 
             FROM grocery_items 
             WHERE category ILIKE $1 
-            OR sub_category ILIKE $1 
+            OR sub_category ILIKE $1
+            OR name ILIKE $1 
             OR description ILIKE $1;
         `;
         const values = [`%${searchTerm}%`];

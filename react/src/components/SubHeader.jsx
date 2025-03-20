@@ -12,13 +12,13 @@ function SubHeader() {
                         <div className="collapse navbar-collapse">
                             <div className="ms-auto d-flex">
                                 <Link to="/user/login" className="nav-link btn btn-outline-dark ms-2">
-                                    <FontAwesomeIcon icon={faUser} size="xl" style={{ color: "#7595a9" }} />
+                                    <FontAwesomeIcon icon={faUser} size="xl" style={{ color: "#333333" }} />
                                 </Link>
                                 <Link to="/user/orders" className="nav-link btn btn-outline-dark ms-2">
-                                    <FontAwesomeIcon icon={faClipboard} size="xl" style={{ color: "#7595a9" }} />
+                                    <FontAwesomeIcon icon={faClipboard} size="xl" style={{ color: "#333333" }} />
                                 </Link>
                                 <Link to="/user/cart" className="nav-link btn btn-outline-dark ms-2">
-                                    <FontAwesomeIcon icon={faCartShopping} size="xl" style={{ color: "#7595a9" }} />
+                                    <FontAwesomeIcon icon={faCartShopping} size="xl" style={{ }} />
                                 </Link>
                             </div>
                         </div>

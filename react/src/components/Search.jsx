@@ -36,9 +36,16 @@ const Search = (props) => {
 
     return (
         <>
-        <form className="form-inline my-2 my-lg-0" onSubmit={handleSubmit}>
-            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" value={searchTerm} onChange={handleChange}/>
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form className="form-inline my-2 my-lg-0" 
+        onSubmit={handleSubmit}
+        style={{
+            display: "flex", 
+            paddingLeft:"800px",
+            paddingRight:"20px"
+        }}
+        >
+            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" value={searchTerm} onChange={handleChange} style={{paddingRight:"20px", marginRight:"10px"}}/>
+            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" style={{backgroundColor:"#333333", color:"white", fontSize:"18px", fontWeight:"bold"}}>Search</button>
         </form>
         </>
     )

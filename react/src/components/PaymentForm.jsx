@@ -4,10 +4,10 @@ const PaymentForm = () => {
 
     return (
         <div className="container mt-5">
-          <h2 className="mb-4">Credit Card Payment</h2>
-          <form>
-            <div className="form-group">
-              <label htmlFor="cardName">Cardholder Name</label>
+          <h2 className="mb-4" style={{color:"#333333"}}>Credit Card Payment</h2>
+          <form >
+            <div className="form-group" >
+              <label htmlFor="cardName" style={{display:"flex"}}>Cardholder Name</label>
               <input
                 type="text"
                 className="form-control"
@@ -17,8 +17,8 @@ const PaymentForm = () => {
                 required
               />
             </div>
-            <div className="form-group">
-              <label htmlFor="cardNumber">Card Number</label>
+            <div className="form-group" >
+              <label htmlFor="cardNumber" style={{display:"flex"}}>Card Number</label>
               <input
                 type="text"
                 className="form-control"
@@ -30,7 +30,7 @@ const PaymentForm = () => {
             </div>
             <div className="form-row">
               <div className="form-group col-md-6">
-                <label htmlFor="expiryDate">Expiry Date</label>
+                <label htmlFor="expiryDate" style={{display:"flex"}}>Expiry Date</label>
                 <input
                   type="text"
                   className="form-control"
@@ -41,7 +41,7 @@ const PaymentForm = () => {
                 />
               </div>
               <div className="form-group col-md-6">
-                <label htmlFor="cvv">CVV</label>
+                <label htmlFor="cvv" style={{display:"flex"}}>CVV</label>
                 <input
                   type="text"
                   className="form-control"

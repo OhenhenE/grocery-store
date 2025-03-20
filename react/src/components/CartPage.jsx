@@ -180,7 +180,7 @@ function CartPage(props) {
             <PaymentForm resetForm={resetForm} setResetForm={setResetForm} />
             < hr />
             <p> Order Total: {orderTotal}</p>
-            <button onClick={handleButtonClick} className="btn btn-secondary"> Order Now </button>
+            <button onClick={handleButtonClick} className="btn btn-secondary" style={{backgroundColor:"#FFEB3B", color:"#333333"}}> Order Now </button>
           </>
         )
       }

@@ -6,3 +6,6 @@ VALUES
     (1, 'Order summary for order 1', 'Enogieru Ohenhen', 25.50, '2025-03-20 10:00:00', '2025-03-20 12:00:00'),
     (1, 'Order summary for order 2', 'Enogieru Ohenhen', 15.75, '2025-03-20 11:00:00', '2025-03-20 13:00:00'),
     (1, 'Order summary for order 3', 'Enogieru Ohenhen', 30.00, '2025-03-20 12:00:00', '2025-03-20 14:00:00');
+
+ALTER TABLE shopping_cart
+ADD COLUMN name VARCHAR(100);

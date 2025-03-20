@@ -61,7 +61,7 @@ function GroceryItemPage(props) {
         <SubHeader />
         <Header setGroceryData={props.setGroceryData} />
         <div className="card" style={{ flex: '1', minWidth: '300px'}}>
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={`/Images/${grocery.grocery_id}.jpg`} className="card-img-top" alt={grocery.name}/>
             <div className="card-body">
                 <h5 className = "card-title"> {data.name} </h5>
                 <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 

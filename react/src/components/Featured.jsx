@@ -7,7 +7,7 @@ function Featured(props) {
     useEffect(() => {
         async function getRecommendations() {
             try {
-                const response = await fetch("http://your-backend-url/recommend", {
+                const response = await fetch("http://localhost:3000/recommend", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json"

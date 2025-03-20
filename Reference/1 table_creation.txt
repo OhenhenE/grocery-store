@@ -28,9 +28,10 @@ CREATE TABLE shopping_cart (
 CREATE TABLE orders (
     id SERIAL PRIMARY KEY,
     user_id INT NOT NULL,
-	items TEXT NOT NULL,
-	name VARCHAR(100) NOT NULL,
-	shipping_address TEXT NOT NULL,
+    items TEXT NOT NULL,
+    name VARCHAR(100) NOT NULL,,
     order_cost DECIMAL(10, 2) NOT NULL,
+    date_ordered TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    pickup_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );

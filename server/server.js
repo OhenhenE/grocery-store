@@ -154,7 +154,7 @@ app.post("/cartpage/add", async (req, res) => {
 // Endpoint to add a new order
 app.post("/orders/add_new_order", async (req, res) => {
   try {
-    const { user_id, name, items_purchased, shipping_address, order_total } =
+    const { user_id, name, items_purchased, order_total } =
       req.body;
 
     // Validate required fields
@@ -163,18 +163,24 @@ app.post("/orders/add_new_order", async (req, res) => {
       !name ||
       !items_purchased ||
       !shipping_address ||
-      !order_total
+      !order_total 
     ) {
       return res.status(400).json({
         message:
-          "All fields are required: user_id, name, items_purchased, shipping_address, order_total.",
+          "All fields are required: user_id, name, items_purchased, order_total",
       });
     }
 
+     // Get current date and time and add 3 hours
+     const currentDate = new Date();
+     currentDate.setHours(currentDate.getHours() + 3);  // Adds 3 hours
+ 
+     const pickupTime = currentDate.toISOString(); // Formats the date to ISO string
+ 
     // Query to insert a new order
     const query = `
-          INSERT INTO orders (user_id, items, name, shipping_address, order_cost)
-          VALUES ($1, $2, $3, $4, $5)
+          INSERT INTO orders (user_id, items, name, order_cost, date_ordered, pickup_time)
+          VALUES ($1, $2, $3, $4, $5, $6)
           RETURNING *;
       `;
 
@@ -328,6 +334,42 @@ app.patch("/cartpage/update", async (req, res) => {
   }
 });
 
+// // Endpoint to get all orders for user id, with item names
+// app.get("/orders/:id", async (req, res) => {
+//     try {
+//       const { id } = req.params;
+//       if (isNaN(id)) {
+//         return res.status(400).json({ message: "Invalid user ID format" });
+//       }
+      
+//       // Modified query to join orders with grocery_items based on grocery_id
+//       const query = `
+//         SELECT o.user_id, 
+//        o.name AS order_name,
+//        o.shipping_address,
+//        o.order_cost,
+//        gi.name AS item_name,
+//        gi.category,
+//        gi.sub_category,
+//        gi.description,
+//        gi.price
+// FROM orders o
+// JOIN LATERAL jsonb_array_elements_text(o.items) AS item_id ON true
+// JOIN grocery_items gi ON gi.id = item_id::int;
+//       `;
+//       const result = await pool.query(query, [id]);
+  
+//       if (result.rows.length === 0) {
+//         return res.status(404).json({ message: "No orders found for this user" });
+//       }
+  
+//       res.json(result.rows);
+//     } catch (err) {
+//       console.error("Error: ", err);
+//       res.status(500).send(`Unable to receive order Items with user id: ${req.params.id}`);
+//     }
+//   });
+  
 // Authentication Endpoint
 app.post("/user/login", async (req, res) => {
   const { username, password } = req.body;

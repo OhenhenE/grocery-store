@@ -11,6 +11,8 @@ import Search from "./components/Search";
 import SearchResults from "./components/SearchResults";
 import Header from "./components/Header";
 import AllGroceries from "./components/AllGroceries";
+import OrdersPage from "./components/OrdersPage";
+
 
 function App() {
   const [groceries, setGroceries] = useState([]);
@@ -41,9 +43,10 @@ function App() {
       <Header>
         <h1>Header here</h1>
       </Header>
-     <AllGroceries data={groceries}>
+     {/* <AllGroceries data={groceries}>
       <h1>All groceries here</h1>
-     </AllGroceries>
+     </AllGroceries> */}
+     <OrdersPage />
     </>
     // <Router>
     //   <AuthProvider>

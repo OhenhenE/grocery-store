@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 
 import Featured from './Featured';
 
+
 const Header = (props) => {
 
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light" style={{backgroundColor: "#4CAF50", marginBottom: "20px", borderRadius:"10px"}}>
-        <Link className="navbar-brand" to="/" 
+        <Link className="navbar-brand" to="/"
         style={{fontFamily:"Lato", fontSize:"45px", color:"#333333", paddingLeft:"20px"}}>Byte & Basket</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

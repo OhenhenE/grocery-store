@@ -1,6 +1,6 @@
-import CartCard from "./CartCard";
-import Header from "./Header";
-import SubHeader from "./SubHeader";
+import CartCard from "../CartCard";
+import Header from "../Header";
+import SubHeader from "../SubHeader";
 import { useState, useEffect } from "react";
 
 

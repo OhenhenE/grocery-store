@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import RequireAuth from "./components/RequireAuth";
+import RequireAuth from "../RequireAuth";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import { AuthProvider } from "./hooks/AuthContext";
-import Home from "./components/Home";
-import LoginForm from "./components/LoginForm";
-import CartPage from "./components/CartPage";
-import Register from "./components/Register";
-import Search from "./components/Search";
+import { AuthProvider } from "../../hooks/AuthContext";
+import Home from "../Home";
+import LoginForm from "../LoginForm";
+import CartPage from "../CartPage";
+import Register from "../Register";
+import Search from "../Search";
 function App() {
   const [grocery_data, setGroceryData] = useState([]);
 

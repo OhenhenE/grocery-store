@@ -1,13 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const GroceryCard = (props) => {
+import{useState, useEffect} from "react";
 
+const GroceryCard = (props) => {
+    const [imageExists, setImageExists] = useState(false);
+
+    useEffect(() => {
+        const checkImage = async () => {
+          const imageURL = `/Images/${props.data.grocery_id}.jpg`;
+    
+          try {
+            const response = await fetch(imageURL, { method: "HEAD" });
+            setImageExists(response.ok); // If the request is OK, the image exists
+          } catch (error) {
+            console.error("Error checking image:", error);
+            setImageExists(false);
+          }
+        };
+    
+        checkImage();
+      }, [props.data.grocery_id]);
+    
     return (
         <>
         <div className="card" style={{ flex: '1', minWidth: '300px', maxWidth: '45%'}}>
             <img 
-                src={`/Images/${props.data.grocery_id}.jpg`} 
+                src={imageExists ? `/Images/${props.data.grocery_id}.jpg` : "/Images/default.jpg"} 
                 className="card-img-top" 
                 alt={props.data.name} 
                 style={{border:"solid 1px grey", borderRadius:"10px", maxHeight:"400px"}}

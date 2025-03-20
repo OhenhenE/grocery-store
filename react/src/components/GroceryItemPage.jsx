@@ -7,6 +7,7 @@ function GroceryItemPage(props) {
 
     let { id } = useParams();
     const [data, setData] = useState([]);
+    const [imageExists, setImageExists] = useState(false); 
     let inCart = false;
 
     useEffect (() => {
@@ -18,6 +19,16 @@ function GroceryItemPage(props) {
             }
             const json_response = await response.json();
             setData(json_response); // assign JSON response to the data variable 
+
+             // Check if the image exists
+            const imageURL = `/Images/${json_response.grocery_id}.jpg`;
+            const imgCheck = await fetch(imageURL, { method: "HEAD" });
+
+            if (imgCheck.ok) {
+              setImageExists(true);
+            } else {
+              setImageExists(false);
+            }
           } catch (error) {
             console.error('Error fetching groceries:', error);
           }
@@ -61,7 +72,10 @@ function GroceryItemPage(props) {
         <SubHeader />
         <Header setGroceryData={props.setGroceryData} />
         <div className="card" style={{ flex: '1', minWidth: '300px', alignItems:"center"}}>
-            <img src={`/Images/${data.grocery_id}.jpg`} className="card-img-top" alt={data.name}
+            <img src={imageExists ? `/Images/${data.grocery_id}.jpg` : "/Images/default.jpg"} 
+            className="card-img-top" 
+            alt={data.name}
+            onError={(e) => { e.target.src = "/Images/logo_edited.png"; }} 
             style={{
               maxHeight:"800px",
               maxWidth:"400px",

@@ -1,6 +1,8 @@
 import Search from './Search'
 import { Link } from "react-router-dom";
 
+import Featured from './Featured';
+
 const Header = (props) => {
 
     return (

@@ -9,6 +9,7 @@ import LoginForm from "./components/LoginForm";
 import CartPage from "./components/CartPage";
 import DepartmentPage from "./components/DepartmentPage";
 import OrdersPage from "./components/OrdersPage";
+import Featured from "./components/Featured";
 
 function App() {
   const [grocery_data, setGroceryData] = useState([]);
@@ -40,6 +41,7 @@ function App() {
           <Route path="/user/login" element={<LoginForm setGroceryData={setGroceryData}/>} />
           <Route path="/user/cart" element={<CartPage setGroceryData={setGroceryData}/>} />
           <Route path="/user/orders" element={<OrdersPage setGroceryData={setGroceryData}/>} />
+          <Route path="/Featured" element={<Featured/>}/>
         </Routes>
       </AuthProvider>
     </Router>

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import React, {useState, useEffect} from "react";
 import Header from "./Header";
-
+import SubHeader from "./SubHeader";
 
 function GroceryItemPage(props) {
 
@@ -26,12 +26,13 @@ function GroceryItemPage(props) {
     
     return (
         <>
+        <SubHeader />
         <Header setGroceryData={props.setGroceryData} />
-        <div className="card" style={{ flex: '1', minWidth: '300px', maxWidth: '45%'}}>
+        <div className="card" style={{ flex: '1', minWidth: '300px'}}>
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className = "card-title"> {data.name} </h5>
-                <div className="card-text">Isle: {data.category} | Department: {data.sub_category}</div> 
+                <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 
                 <p className="card-text">Cost: {data.price}</p>
                 <p className="card-text">{data.description}</p>           
                 <button className="btn btn-primary">Add to Cart</button>

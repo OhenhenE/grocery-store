@@ -12,7 +12,7 @@ const Header = (props) => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">Featured</a>
+              <a className="nav-link" href="/featured">Featured</a>
             </li>
             <li className="nav-item dropdown">
                   <a

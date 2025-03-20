@@ -67,8 +67,8 @@ function CartPage(props) {
       const order = {
         user_id: props.user_id,
         name: props.name,
-        grocery_items: orderString,
-        order_total: orderTotal,
+        order_summary: orderString,
+        order_cost: orderTotal,
       };
 
       const response = await fetch(`http://localhost:3000/cartpage/update/`, {

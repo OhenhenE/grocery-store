@@ -7,6 +7,7 @@ function GroceryItemPage(props) {
 
     let { id } = useParams();
     const [data, setData] = useState([]);
+    let inCart = false;
 
     useEffect (() => {
         const fetchData = async () => {
@@ -23,6 +24,37 @@ function GroceryItemPage(props) {
         };
         fetchData();
       }, []);
+
+      const addToCart = async () => {
+        if (!inCart) 
+        {try {
+    
+          const cartItem = {
+            user_id: props.user_id,
+            name: props.name,
+            grocery_id: data.grocery_id,
+            price: data.price,
+            quantity: 1
+          };
+    
+          const response = await fetch(`http://localhost:3000/cartpage/add/`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(cartItem)
+          });
+          if (!response.ok) {
+            throw new Error(`Could not add new item to shoppung cart`);
+          }
+
+          inCart = true;
+        } catch (error) {
+          console.error('Error Adding To Cart:', error);
+        }} else {
+          inCart = true
+        }
+      } 
     
     return (
         <>
@@ -35,7 +67,7 @@ function GroceryItemPage(props) {
                 <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 
                 <p className="card-text">Cost: {data.price}</p>
                 <p className="card-text">{data.description}</p>           
-                <button className="btn btn-primary">Add to Cart</button>
+                <button className="btn btn-primary" onClick={addToCart}>Add to Cart</button>
             </div>
         </div>
         </>

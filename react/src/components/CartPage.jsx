@@ -60,12 +60,12 @@ function CartPage(props) {
 
   const deleteAllFromCart = async (user_id) => {
     try {
-      const response = await fetch(`http://localhost:3000/cartpage/delete/${user_id}/`, { method: 'DELETE' });
+      const response = await fetch(`http://localhost:3000/cartpage/delete_all/${user_id}/`, { method: 'DELETE' });
       if (!response.ok) {
         throw new Error(`Items assc. to user id ${user_id} could not be deleted from cart!`);
       }
-      const updatedData = cartData.filter(item => item.id !== cart_id); // Removes deleted item from array
-      setCartData(updatedData); // Updates state with updated data
+      setCartData([]); // Updates state with updated data
+      setEmptyCart(true);
     } catch (error) {
       console.error('Error Deleting Cart Items:', error);
     }
@@ -162,6 +162,7 @@ function CartPage(props) {
 
       {emptyCart && (
         <>
+          <br></br>
           <Link to='/featured'> Nothing in your shopping cart! Shop Now!</Link>
         </>
       )}

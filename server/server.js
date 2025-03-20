@@ -164,10 +164,12 @@ app.post("/orders/add_new_order", async (req, res) => {
         }
 
         // Get current date and time and add 3 hours
-        const currentDate = new Date();
-        currentDate.setHours(currentDate.getHours() + 3);  // Adds 3 hours
 
-        const pickupTime = currentDate.toISOString(); // Formats the date to ISO string
+        const currentDate = new Date();
+        const date_ordered = currentDate.toISOString();
+
+        currentDate.setHours(currentDate.getHours() + 3);  // Adds 3 hours
+        const pickup_time = currentDate.toISOString(); // Formats the date to ISO string
 
         // Query to insert a new order
         const query = `
@@ -175,9 +177,6 @@ app.post("/orders/add_new_order", async (req, res) => {
             VALUES ($1, $2, $3, $4, $5, $6)
             RETURNING *;
         `;
-
-        // Convert items_purchased array to a string (or another format, like JSON)
-        const items = JSON.stringify(items_purchased); // This assumes 'items' is an array of item IDs or details
 
         const values = [user_id, order_summary, name, order_cost, date_ordered, pickup_time];
         const result = await pool.query(query, values);
@@ -226,7 +225,7 @@ app.delete("/cartpage/delete/:id", async (req, res) => {
 });
 
 // Endpoint to delete all items from the shopping cart for a specific user
-app.delete("/cartpage/delete_all/:id", async (req, res) => {
+app.delete("/cartpage/delete_all/:user_id", async (req, res) => {
     try {
         const { user_id } = req.params;
 

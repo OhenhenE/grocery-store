@@ -2,6 +2,7 @@ import GroceryCardList from "./GroceryCardList";
 import React, {useState, useEffect} from "react";
 import Header from "./Header";
 import { useParams } from "react-router-dom";
+import SubHeader from "./SubHeader";
 
 
 function DepartmentPage(props) {
@@ -27,6 +28,7 @@ function DepartmentPage(props) {
     
     return(
         <>
+            <SubHeader />
             <Header setGroceryData={props.setGroceryData} />
             <GroceryCardList data={data}/>
         </>

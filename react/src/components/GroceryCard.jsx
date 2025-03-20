@@ -13,7 +13,7 @@ const GroceryCard = (props) => {
             />
             <div className="card-body">
                 <h5 className = "card-title"> {props.data.name} </h5>
-                <div className="card-text">Department: {props.data.category} | Price: {props.data.price}</div>              
+                <div className="card-text">Aisle: {props.data.category} | Price: {props.data.price}</div>              
                 <Link to={`/groceries/${props.data.grocery_id}`} className="btn btn-primary">Go to Details</Link>
             </div>
         </div>

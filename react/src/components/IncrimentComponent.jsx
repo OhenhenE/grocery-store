@@ -1,25 +1,25 @@
-function IncrimentComponent(props) { 
+function IncrementComponent(props) { 
 
-    decreaseQuantity = () => {
-        const newQuanity = props.quanityIndicator - 1
-        if (newQuanity < 1) {
-            props.changeQuantityIndicator(0)
+    const decreaseQuantity = () => {
+        const newQuantity = parseInt(props.quantityIndicator, 10) - 1;
+        if (newQuantity < 1) {
+            props.changeQuantityIndicator(0);
         } else {
-            props.changeQuantityIndicator(newQuanity)
+            props.changeQuantityIndicator(newQuantity);
         }
-        
     }
     
-    increaseQuantity = () => {
-        newQuanity = props.quanityIndicator + 1
-        props.changeQuantityIndicator(newQuanity)
+    const increaseQuantity = () => {
+        const newQuantity = parseInt(props.quantityIndicator, 10) + 1;
+        props.changeQuantityIndicator(newQuantity);
     }
     
-    handleChange = (e) => {
-        if (e.target.value < 1) {
-            props.changeQuantityIndicator(0)
+    const handleChange = (e) => {
+        const value = parseInt(e.target.value, 10);
+        if (value < 1) {
+            props.changeQuantityIndicator(0);
         } else {
-            props.changeQuantityIndicator(e.target.value)
+            props.changeQuantityIndicator(value);
         }
     }
 
@@ -28,13 +28,12 @@ function IncrimentComponent(props) {
             <div className="input-group-prepend">
                 <button className="btn btn-outline-secondary" type="button" onClick={decreaseQuantity}>-</button>
             </div>
-            <input type="text" className="form-control" value={props.quanityIndicator} onChange={handleChange} />
+            <input type="number" className="form-control" value={props.quantityIndicator} onChange={handleChange} />
             <div className="input-group-append">
                 <button className="btn btn-outline-secondary" type="button" onClick={increaseQuantity}>+</button>
             </div>
         </div>
-    )
-
+    );
 }
 
-export default IncrimentComponent;
+export default IncrementComponent;

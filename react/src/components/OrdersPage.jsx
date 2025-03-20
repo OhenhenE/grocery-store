@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import Header from "./Header";
+import SubHeader from "./SubHeader";
 import OrderRow from "./OrderRow"; // Import the OrderRow component
 
-function OrdersPage() {
+function OrdersPage(props) {
   const [orders, setOrders] = useState([]);
 
   // Fetch orders from API using async/await
@@ -24,8 +26,12 @@ function OrdersPage() {
 
   // Render the orders in a table
   return (
+    <>
+    <SubHeader />
+    <Header setGroceryData={props.setGroceryData} />
     <div>
-      <h1>Orders Page</h1>
+      <br></br>
+      <h1>Order History</h1>
 
       {orders.length === 0 ? (
         <p>No orders found for this user.</p>
@@ -48,6 +54,7 @@ function OrdersPage() {
         </table>
       )}
     </div>
+    </>
   );
 }
 

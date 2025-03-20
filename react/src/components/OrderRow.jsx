@@ -7,13 +7,24 @@ function OrderRow({ order }) {
     day: "2-digit",
   });
 
+  const formattedDateTime = new Date(order.pickup_time).toLocaleString("en-US", {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZoneName: 'short'
+  });
+  
+
   return (
     <tr key={order.id}>
       <td>{formattedDate}</td>
-      <td>{order.pickup_time}</td>
+      <td>{formattedDateTime}</td>
       <td>{order.name}</td>
       <td>${order.order_cost}</td>
-      <td>${order.order_summary}</td>
+      <td>{order.order_summary}</td>
     </tr>
   );
 }

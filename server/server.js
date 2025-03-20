@@ -72,8 +72,6 @@ app.get('/groceries/:category', async (req, res) => {
 app.post('/groceries/search/', async (req, res) => {
     try {
         const { searchTerm } = req.body;
-        console.log("I am here")
-        console.log(searchTerm);
         const query = `
             SELECT * 
             FROM grocery_items 
@@ -93,23 +91,23 @@ app.post('/groceries/search/', async (req, res) => {
 });
 
 //Endpoint to (post) add item to shopping cart
-app.post("/cartpage/add", async (req, res) => {
+app.post("/cartpage/add/", async (req, res) => {
     try {
-        const { user_id, grocery_id, quantity, item_cost } = req.body;
+        const { user_id, name, grocery_id, quantity, item_cost } = req.body;
 
         // Validate the input data (you can add more validation if needed)
-        if (!user_id || !grocery_id || !quantity || !item_cost) {
-            return res.status(400).json({
-                message:
-                    "All fields are required: user_id, grocery_id, quantity, item_cost.",
-            });
-        }
+        // if (!user_id || !grocery_id || !quantity || !item_cost) {
+        //     return res.status(400).json({
+        //         message:
+        //             "All fields are required: user_id, grocery_id, quantity, item_cost.",
+        //     });
+        // }
         const query = `
-          INSERT INTO shopping_cart (user_id, grocery_id, quantity, item_cost)
-          VALUES ($1, $2, $3, $4)
+          INSERT INTO shopping_cart (user_id, name, grocery_id, quantity, item_cost)
+          VALUES ($1, $2, $3, $4, $5)
           RETURNING *;
       `;
-        const values = [user_id, grocery_id, quantity, item_cost];
+        const values = [user_id, name, grocery_id, quantity, item_cost];
         const result = await pool.query(query, values);
 
         res
@@ -121,23 +119,47 @@ app.post("/cartpage/add", async (req, res) => {
     }
 });
 
+//Endpoint to get shopping cart with user id
+app.get("/cartpage/:id", async (req, res) => {
+    try {
+      const { id } = req.params;
+      // const query = `SELECT * FROM shopping_cart WHERE user_id = $1`;
+      const query = `SELECT *
+          FROM shopping_cart 
+          WHERE user_id = $1`;
+      const values = [id];
+      const result = await pool.query(query, values);
+  
+      if (result.rows.length === 0) {
+        return res
+          .status(404)
+          .json({ message: "No cart items found for this user" });
+      }
+      res.json(result.rows);
+    } catch (err) {
+      console.error("Error: ", err);
+      res
+        .status(500)
+        .send(`Unable to Recieve cart Items with user id: ${req.params.id}`);
+    }
+  });
+
 // Endpoint to add a new order
 app.post("/orders/add_new_order", async (req, res) => {
     try {
-        const { user_id, name, items_purchased, order_total } =
+        const { user_id, name, order_summary, order_cost } =
             req.body;
 
         // Validate required fields
         if (
             !user_id ||
             !name ||
-            !items_purchased ||
-            !shipping_address ||
-            !order_total
+            !order_summary ||
+            !order_cost
         ) {
             return res.status(400).json({
                 message:
-                    "All fields are required: user_id, name, items_purchased, order_total",
+                    "All fields are required: user_id, name, items_purchased, order_cost",
             });
         }
 
@@ -149,7 +171,7 @@ app.post("/orders/add_new_order", async (req, res) => {
 
         // Query to insert a new order
         const query = `
-            INSERT INTO orders (user_id, items, name, order_cost, date_ordered, pickup_time)
+            INSERT INTO orders (user_id, order_summary, name, order_cost, date_ordered, pickup_time)
             VALUES ($1, $2, $3, $4, $5, $6)
             RETURNING *;
         `;
@@ -157,7 +179,7 @@ app.post("/orders/add_new_order", async (req, res) => {
         // Convert items_purchased array to a string (or another format, like JSON)
         const items = JSON.stringify(items_purchased); // This assumes 'items' is an array of item IDs or details
 
-        const values = [user_id, items, name, shipping_address, order_total];
+        const values = [user_id, order_summary, name, order_cost, date_ordered, pickup_time];
         const result = await pool.query(query, values);
 
         // Respond with the newly created order
@@ -172,21 +194,22 @@ app.post("/orders/add_new_order", async (req, res) => {
 });
 
 // End point to delete an item from the cart
-app.delete("/cartpage/delete", async (req, res) => {
+app.delete("/cartpage/delete/:id", async (req, res) => {
     try {
-        const { user_id, grocery_id } = req.body;
+        const { id } = req.params;
+        const user_id = 1;
 
-        if (!user_id || !grocery_id) {
+        if (!user_id || !id) {
             return res.status(400).json({
-                message: "All fields are required: user_id, grocery_id.",
+                message: "All fields are required: user_id, id.",
             });
         }
         const query = `
           DELETE FROM shopping_cart
-          WHERE user_id = $1 AND grocery_id = $2
+          WHERE user_id = $1 AND id = $2
           RETURNING *;
       `;
-        const values = [user_id, grocery_id];
+        const values = [user_id, id];
         const result = await pool.query(query, values);
 
         if (result.rows.length === 0) {
@@ -203,9 +226,9 @@ app.delete("/cartpage/delete", async (req, res) => {
 });
 
 // Endpoint to delete all items from the shopping cart for a specific user
-app.delete("/cartpage/delete_all", async (req, res) => {
+app.delete("/cartpage/delete_all/:id", async (req, res) => {
     try {
-        const { user_id } = req.body;
+        const { user_id } = req.params;
 
         if (!user_id) {
             return res.status(400).json({
@@ -264,12 +287,12 @@ app.get("/orders/:id", async (req, res) => {
 // Endpoint to update item quantity in the shopping cart
 app.patch("/cartpage/update", async (req, res) => {
     try {
-        const { user_id, grocery_id, new_quantity } = req.body;
+        const { user_id, id, new_quantity } = req.body;
 
         // Check if all required fields are provided
-        if (!user_id || !grocery_id || !new_quantity) {
+        if (!user_id || !id || !new_quantity) {
             return res.status(400).json({
-                message: "All fields are required: user_id, grocery_id, new_quantity.",
+                message: "All fields are required: user_id, cart_id, new_quantity.",
             });
         }
 
@@ -284,10 +307,10 @@ app.patch("/cartpage/update", async (req, res) => {
         const query = `
           UPDATE shopping_cart
           SET quantity = $1
-          WHERE user_id = $2 AND grocery_id = $3
+          WHERE user_id = $2 AND id = $3
           RETURNING *;
         `;
-        const values = [new_quantity, user_id, grocery_id];
+        const values = [new_quantity, user_id, id];
         const result = await pool.query(query, values);
 
         if (result.rows.length === 0) {

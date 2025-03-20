@@ -30,11 +30,11 @@ function GroceryItemPage(props) {
         {try {
     
           const cartItem = {
-            user_id: props.user_id,
-            name: props.name,
+            user_id: 1,
+            name: data.name,
             grocery_id: data.grocery_id,
-            price: data.price,
-            quantity: 1
+            quantity: 1,
+            item_cost: data.price
           };
     
           const response = await fetch(`http://localhost:3000/cartpage/add/`, {
@@ -61,7 +61,7 @@ function GroceryItemPage(props) {
         <SubHeader />
         <Header setGroceryData={props.setGroceryData} />
         <div className="card" style={{ flex: '1', minWidth: '300px'}}>
-            <img src={`/Images/${grocery.grocery_id}.jpg`} className="card-img-top" alt={grocery.name}/>
+            <img src={`/Images/${data.grocery_id}.jpg`} className="card-img-top" alt={data.name}/>
             <div className="card-body">
                 <h5 className = "card-title"> {data.name} </h5>
                 <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 

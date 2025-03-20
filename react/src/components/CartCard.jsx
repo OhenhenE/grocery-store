@@ -6,14 +6,16 @@ function CartCard(props) {
 
     const [quantityIndicator, changeQuantityIndicator] = useState([props.data.quantity]);
 
+    let item_cost = props.data.item_cost * props.data.quantity
+
     return (
         <>
           <div className="container my-5">
             <div className="card row flex-row">
-              <img className="col-lg-4 card-img-start img-fluid p-0" src={`/Images/${grocery.grocery_id}.jpg`} alt="Product" />
+              <img className="col-lg-4 card-img-start img-fluid p-0" src={`/Images/${props.data.grocery_id}.jpg`} alt="Product" />
               <div className="col-lg-8 card-body">
                 <h4 className="card-title">{props.data.name}</h4>
-                <p className="card-text">${props.data.cost * quantityIndicator}</p>
+                <p className="card-text">${item_cost.toFixed(2)}</p>
                 <div className="container">
                   <div className="card row flex-row">
                     <IncrimentComponent quantityIndicator={quantityIndicator} changeQuantityIndicator={changeQuantityIndicator} />

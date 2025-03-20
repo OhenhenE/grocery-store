@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { useAuth } from "../hooks/AuthContext";
 import { useNavigate } from "react-router-dom";
+import Header from "./Header";
+import SubHeader from "./SubHeader";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 import Register from "./Register";
 
-function LoginForm() {
+function LoginForm(props) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const { login } = useAuth();
@@ -20,6 +22,8 @@ function LoginForm() {
 
   return (
     <>
+      <SubHeader />
+      <Header setGroceryData={props.setGroceryData} />
       <div>
         <div>
           <button>Sign In</button>

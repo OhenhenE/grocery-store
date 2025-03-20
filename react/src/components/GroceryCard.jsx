@@ -7,9 +7,9 @@ const GroceryCard = (props) => {
         <>
         <div className="card" style={{ flex: '1', minWidth: '300px', maxWidth: '45%'}}>
             <img 
-                src={`/Images/${grocery.grocery_id}.jpg`} 
+                src={`/Images/${props.data.grocery_id}.jpg`} 
                 className="card-img-top" 
-                alt={grocery.name} 
+                alt={props.data.name} 
             />
             <div className="card-body">
                 <h5 className = "card-title"> {props.data.name} </h5>

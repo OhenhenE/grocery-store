@@ -1,7 +1,7 @@
 import CartCard from "./CartCard";
 import Header from "./Header";
 import SubHeader from "./SubHeader";
-import ShippingForm from "./PaymentForm"
+import PaymentForm from "./PaymentForm"
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 // import { useAuth } from '../hooks/AuthContext';
@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 function CartPage(props) {
 
   //     const { user } = useAuth();
+
+  const user_id = 1;
 
   const [cartData, setCartData] = useState([]);
   const [emptyCart, setEmptyCart] = useState(true);
@@ -19,7 +21,7 @@ function CartPage(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/cartpage/${props.user_id}/`);
+        const response = await fetch(`http://localhost:3000/cartpage/${user_id}/`);
         if (!response.ok) {
           throw new Error('Shopping Cart Data could not be fetched!');
         }
@@ -36,16 +38,17 @@ function CartPage(props) {
   }, []);
 
   useEffect(() => {
-    const updateCartTotal = async () => {
+    const updateCartTotal = () => {
       if (cartData && cartData.length > 0) {
         let runningTotal = 0;
-        cartData.forEach(item =>
-          runningTotal = runningTotal + (item.price * item.quantity)
-        )
-        setOrderTotal(runningTotal)
-        updateCartTotal();
+        cartData.forEach(item => {
+          runningTotal += item.item_cost * item.quantity;
+        });
+        // Round the runningTotal to two decimal places
+        const roundedTotal = parseFloat(runningTotal.toFixed(2));
+        setOrderTotal(roundedTotal);
       } else {
-        setOrderTotal(0)
+        setOrderTotal(0);
       }
     };
     updateCartTotal();
@@ -54,6 +57,20 @@ function CartPage(props) {
   const handleClearForm = () => {
     setResetForm(true);
   };
+
+  const deleteAllFromCart = async (user_id) => {
+    try {
+      const response = await fetch(`http://localhost:3000/cartpage/delete/${user_id}/`, { method: 'DELETE' });
+      if (!response.ok) {
+        throw new Error(`Items assc. to user id ${user_id} could not be deleted from cart!`);
+      }
+      const updatedData = cartData.filter(item => item.id !== cart_id); // Removes deleted item from array
+      setCartData(updatedData); // Updates state with updated data
+    } catch (error) {
+      console.error('Error Deleting Cart Items:', error);
+    }
+  };
+
 
   const placeOrder = async () => {
     try {
@@ -65,13 +82,13 @@ function CartPage(props) {
       });
 
       const order = {
-        user_id: props.user_id,
-        name: props.name,
+        user_id: user_id,
+        name: "Enogieru Test",
         order_summary: orderString,
         order_cost: orderTotal,
       };
 
-      const response = await fetch(`http://localhost:3000/cartpage/update/`, {
+      const response = await fetch(`http://localhost:3000/orders/add_new_order`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -81,6 +98,9 @@ function CartPage(props) {
       if (!response.ok) {
         throw new Error(`Could not add new order to database`);
       }
+
+      deleteAllFromCart(user_id)
+
     } catch (error) {
       console.error('Error Adding Order:', error);
     }
@@ -106,27 +126,32 @@ function CartPage(props) {
   };
 
   const handleUpdate = async (cart_id, newQuantity) => {
-    try {
-      const dataUpdate = {
-        user_id: props.user_id,
-        quantity: newQuantity
-      };
+    if (newQuantity === 0) {
+      handleDelete(cart_id)
+    } else {
+      try {
+        const dataUpdate = {
+          user_id: user_id,
+          id: cart_id,
+          new_quantity: newQuantity
+        };
 
-      const response = await fetch(`http://localhost:3000/cartpage/update/`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(dataUpdate)
-      });
-      if (!response.ok) {
-        throw new Error(`Item with id ${cart_id} could not be updated in cart!`);
+        const response = await fetch(`http://localhost:3000/cartpage/update/`, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(dataUpdate)
+        });
+        if (!response.ok) {
+          throw new Error(`Item with id ${cart_id} could not be updated in cart!`);
+        }
+        setCartData(prevData => prevData.map(item =>
+          item.id === cart_id ? { ...item, quantity: newQuantity } : item
+        ));
+      } catch (error) {
+        console.error('Error Updating Cart Item:', error);
       }
-      setCartData(prevData => prevData.map(item =>
-        item.id === cart_id ? { ...item, quantity: newQuantity } : item
-      ));
-    } catch (error) {
-      console.error('Error Updating Cart Item:', error);
     }
   };
 
@@ -137,7 +162,7 @@ function CartPage(props) {
 
       {emptyCart && (
         <>
-        <Link to='/featured'> Nothing in your shopping cart! Shop Now!</Link>
+          <Link to='/featured'> Nothing in your shopping cart! Shop Now!</Link>
         </>
       )}
 

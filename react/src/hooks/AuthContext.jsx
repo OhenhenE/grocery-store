@@ -1,37 +1,28 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { createContext, useContext, useState } from 'react';
 
+// Creating an authentication context
 const AuthContext = createContext(null);
 
+// Auth provider component that wraps your app components
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        const storedUser = JSON.parse(localStorage.getItem('user'));
-        if (storedUser) {
-            setUser(storedUser);
-        }
-    }, []);
 
     const login = async (username, password) => {
         try {
-            const response = await fetch(`http://localhost:5432/user/login`, {
+            const response = await fetch(`http://localhost:3000/user/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ "username" : username, "password" : password }),
+                body: JSON.stringify({ username, password }),
             });
             const data = await response.json();
-            if (data.user_id) {
-                const userData = {
-                    name: data.name,
-                    user_id: data.user_id
-                };
-                setUser(userData);
-                localStorage.setItem('user', JSON.stringify(userData));
-                navigate('/');
+            console.log("Data: ", data)
+            if (data.uid) {
+                setUser({
+                    name: "Enogieru Ohenhen",
+                    user_id: data.uid // Storing the uid returned from the server
+                });
             } else {
                 throw new Error(data.message || 'Login failed');
             }
@@ -41,8 +32,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     const logout = () => {
-        setUser(null);
-        localStorage.removeItem('user');
+        setUser(null); // In real scenarios, you might want to invalidate the session on the server as well
     };
 
     return (
@@ -52,4 +42,5 @@ export const AuthProvider = ({ children }) => {
     );
 };
 
+// Hook to use authentication
 export const useAuth = () => useContext(AuthContext);

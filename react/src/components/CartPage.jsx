@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from '../hooks/AuthContext';
 
-function CartPage(props) {
+const CartPage = (props) => {
 
   
   const { user } = useAuth();

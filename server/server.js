@@ -6,12 +6,28 @@ import express from 'express';
 import { promises as fs } from 'fs';
 
 dotenv.config();
-
 const app = express();
 app.use(cors()); // Enable CORS for all routes
 const PORT = 3000;
 
 app.use(express.json());
+
+// app.use((req, res, next) => {
+//     res.setHeader("Access-Control-Allow-Origin", "*");
+//     res.header(
+//         "Access-Control-Allow-Headers",
+//         "Origin, X-Requested-With, Content-Type, Accept"
+//     );
+//     next();
+// });
+
+// app.use(cors({
+//     origin: '*', // Replace with your client URL
+//     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
+//     allowedHeaders: ['Content-Type', 'Authorization']
+// }));
+
+
 
 const { Pool } = pg;
 // PostgreSQL pool configuration
@@ -134,27 +150,27 @@ app.post("/cartpage/add/", async (req, res) => {
 //Endpoint to get shopping cart with user id
 app.get("/cartpage/:id", async (req, res) => {
     try {
-      const { id } = req.params;
-      // const query = `SELECT * FROM shopping_cart WHERE user_id = $1`;
-      const query = `SELECT *
+        const { id } = req.params;
+        // const query = `SELECT * FROM shopping_cart WHERE user_id = $1`;
+        const query = `SELECT *
           FROM shopping_cart 
           WHERE user_id = $1`;
-      const values = [id];
-      const result = await pool.query(query, values);
-  
-      if (result.rows.length === 0) {
-        return res
-          .status(404)
-          .json({ message: "No cart items found for this user" });
-      }
-      res.json(result.rows);
+        const values = [id];
+        const result = await pool.query(query, values);
+
+        if (result.rows.length === 0) {
+            return res
+                .status(404)
+                .json({ message: "No cart items found for this user" });
+        }
+        res.json(result.rows);
     } catch (err) {
-      console.error("Error: ", err);
-      res
-        .status(500)
-        .send(`Unable to Recieve cart Items with user id: ${req.params.id}`);
+        console.error("Error: ", err);
+        res
+            .status(500)
+            .send(`Unable to Recieve cart Items with user id: ${req.params.id}`);
     }
-  });
+});
 
 // Endpoint to add a new order
 app.post("/orders/add_new_order", async (req, res) => {

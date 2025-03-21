@@ -77,8 +77,8 @@ function GroceryItemPage(props) {
             alt={data.name}
             onError={(e) => { e.target.src = "/Images/logo_edited.png"; }} 
             style={{
-              maxHeight:"800px",
-              maxWidth:"400px",
+              // maxHeight:"900px",
+              // maxWidth:"400px",
               display:"flex"
             }}/>
             <div className="card-body">
@@ -86,7 +86,7 @@ function GroceryItemPage(props) {
                 <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 
                 <p className="card-text">Cost: {data.price}</p>
                 <p className="card-text">{data.description}</p>           
-                <button className="btn btn-primary" onClick={addToCart} disabled={inCart}>{inCart ? "Added" : "Add to Cart"}</button>
+                <button className="btn btn-primary" style={{backgroundColor:"#4CAF50", border:"solid 1px #4CAF50"}} onClick={addToCart} disabled={inCart}>{inCart ? "Added" : "Add to Cart"}</button>
             </div>
         </div>
         </>

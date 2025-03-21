@@ -10,7 +10,7 @@ const CartPage = (props) => {
 
   
   const { user } = useAuth();
-  const user_id = user.user_id;
+  const user_id = 1;
 
   const [cartData, setCartData] = useState([]);
   const [emptyCart, setEmptyCart] = useState(true);
@@ -21,7 +21,7 @@ const CartPage = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/cartpage/${user_id}/`);
+        const response = await fetch(`http://localhost:3000/cartpage/1/`);
         if (!response.ok) {
           throw new Error('Shopping Cart Data could not be fetched!');
         }

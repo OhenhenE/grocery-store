@@ -92,13 +92,13 @@ function Featured(props) {
             <SubHeader />
             <Header setGroceryData={props.setGroceryData} />
             <br></br>
-            <h3 style={{ textAlign: 'center' }}>Recommended for You</h3>
-            <div className="container mt-5">
-                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
+            <h3 style={{ textAlign: 'center', color:"#333333" }}>Recommended for You</h3>
+            <div className="container mt-5" >
+                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" >
+                    <div className="carousel-inner" >
                         {useData.map((itemGroup, index) => (
                             <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-                                <div className="cards-wrapper">
+                                <div className="cards-wrapper" >
                                     {itemGroup.map((item, idx) => (
                                         <GroceryCard key={idx} data={item} />
                                     ))}

@@ -24,12 +24,12 @@ const GroceryCard = (props) => {
     
     return (
         <>
-        <div className="card" style={{ flex: '1', minWidth: '300px', maxWidth: '45%'}}>
+        <div className="card" style={{ flex: '1', minWidth: '400px'}}>
             <img 
                 src={imageExists ? `/Images/${props.data.grocery_id}.jpg` : "/Images/default.jpg"}  
                 className="card-img-top" 
                 alt={props.data.name} 
-                style={{border:"solid 1px grey", borderRadius:"10px", maxHeight:"400px"}}
+                style={{border:"solid 1px grey", borderRadius:"10px"}}
             />
             <div className="card-body">
                 <h5 className = "card-title" style={{ fontSize:"20px", paddingBottom:"8px", fontWeight:"bold", color:"#333333"}}> {props.data.name} </h5>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import IncrimentComponent from "./IncrimentComponent";
 
 function CartCard(props) {

@@ -86,7 +86,7 @@ function GroceryItemPage(props) {
                 <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 
                 <p className="card-text">Cost: {data.price}</p>
                 <p className="card-text">{data.description}</p>           
-                <button className="btn btn-primary" style={{backgroundColor:"#4CAF50", border:"solid 1px #4CAF50"}} onClick={addToCart} disabled={inCart}>{inCart ? "Added" : "Add to Cart"}</button>
+                <button className="btn btn-primary" style={{backgroundColor:"#264653", border:"solid 1px #E0FBFC", color: "#ffffff"}} onClick={addToCart} disabled={inCart}>{inCart ? "Added" : "Add to Cart"}</button>
             </div>
         </div>
         </>

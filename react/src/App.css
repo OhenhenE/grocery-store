@@ -54,16 +54,16 @@
 
 .nav-link.btn-outline-dark:hover {
  
-  color: #4CAF50; 
+  color: #F4A261; 
   background-color: white;
 }
 
 #clipboard:hover{
-  color: #4CAF50; 
+  color: #F4A261; 
   background-color: white;
 }
 #person:hover {
-  color: #4CAF50; 
+  color: #F4A261; 
   background-color: white;
 }
 .card-text {

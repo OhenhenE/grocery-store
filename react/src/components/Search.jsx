@@ -45,7 +45,7 @@ const Search = (props) => {
         }}
         >
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" value={searchTerm} onChange={handleChange} style={{paddingRight:"20px", marginRight:"10px"}}/>
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" style={{backgroundColor:"#333333", color:"white", fontSize:"18px", fontWeight:"bold"}}>Search</button>
+            <button className="btn my-2 my-sm-0" type="submit" style={{backgroundColor:"#E8F6F6", color:"#333333", fontSize:"18px", fontWeight:"bold", borderColor: "#ffffff"}}>Search</button>
         </form>
         </>
     )

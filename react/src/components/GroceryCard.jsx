@@ -29,12 +29,12 @@ const GroceryCard = (props) => {
                 src={imageExists ? `/Images/${props.data.grocery_id}.jpg` : "/Images/default.jpg"}  
                 className="card-img-top" 
                 alt={props.data.name} 
-                style={{border:"solid 1px grey", borderRadius:"10px"}}
+                style={{border:"solid 1px #F4A261", borderRadius:"10px"}}
             />
             <div className="card-body">
                 <h5 className = "card-title" style={{ fontSize:"20px", paddingBottom:"8px", fontWeight:"bold", color:"#333333"}}> {props.data.name} </h5>
                 <div className="card-text" style={{ fontSize:"17px", paddingBottom:"8px"}}>Aisle: {props.data.category} | Price: {props.data.price}</div>              
-                <Link to={`/groceries/${props.data.grocery_id}`} className="btn btn-primary"style={{fontFamily:"Lato", fontSize:"15px", marginTop:"10px", backgroundColor:"#4CAF50", borderColor:"#4CAF50"}}>Details</Link>
+                <Link to={`/groceries/${props.data.grocery_id}`} className="btn btn-primary"style={{fontFamily:"Lato", fontSize:"15px", marginTop:"10px", backgroundColor:"#ffffff", borderColor:"#ffd4d4", color: "#333333" }}>Details</Link>
             </div>
         </div>
         </>

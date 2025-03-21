@@ -12,3 +12,13 @@ ADD COLUMN name VARCHAR(100);
 
 ALTER TABLE shopping_cart
 RENAME COLUMN item_cost TO price;
+
+DELETE FROM orders;
+
+INSERT INTO orders (user_id, order_summary, name, order_cost, date_ordered, pickup_time)
+VALUES
+    (1, '5 bananas, 2 Frozen Strawberries, 1 Tuna, 3 Carrots', 'Enogieru Ohenhen', 25.50, '2025-03-15 10:00:00', '2025-03-15 12:00:00'),
+    (1, '2 oranges, 3 Frozen Raspberries, 4 Cod', 'Enogieru Ohenhen', 15.75, '2025-03-16 11:00:00', '2025-03-16 13:30:00'),
+    (1, '6 apples, 1 Frozen Blackberries', 'Enogieru Ohenhen', 30.00, '2025-03-17 12:00:00', '2025-03-17 14:15:00'),
+    (1, '4 pears, 5 Frozen Mangoes, 2 Halibut, 3 Tomatoes, 1 Lettuce', 'Enogieru Ohenhen', 20.00, '2025-03-18 13:00:00', '2025-03-18 15:00:00'),
+    (1, '3 grapes, 4 Frozen Peaches, 5 Salmon', 'Enogieru Ohenhen', 18.25, '2025-03-19 14:00:00', '2025-03-20 10:00:00');

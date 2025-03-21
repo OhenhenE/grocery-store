@@ -44,7 +44,7 @@ function LoginForm(props) {
                 placeholder="Enter username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                style={{maxWidth:"75%", border:"solid 1px #4CAF50", marginLeft:"200px"}}
+                style={{maxWidth:"75%", border:"solid 1px #264653", marginLeft:"200px"}}
               />
             </div>
             <div className="form-group">
@@ -56,10 +56,10 @@ function LoginForm(props) {
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                style={{maxWidth:"75%", border:"solid 1px #4CAF50", marginLeft:"200px"}}
+                style={{maxWidth:"75%", border:"solid 1px #264653", marginLeft:"200px"}}
               />
             </div>
-            <button type="submit" style={{backgroundColor:"#4CAF50", border:"solid 1px #4CAF50", margin:"20px"}} className="btn btn-primary">
+            <button type="submit" style={{backgroundColor:"#264653", border:"solid 1px #264653", margin:"20px"}} className="btn btn-primary">
               Login
             </button>
           </form>

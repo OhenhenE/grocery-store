@@ -26,7 +26,7 @@ const GroceryCard = (props) => {
         <>
         <div className="card" style={{ flex: '1', minWidth: '400px'}}>
             <img 
-                src={imageExists ? `/Images/${props.data.grocery_id}.jpg` : "/Images/default.jpg"} 
+                src={imageExists ? `/Images/${props.data.grocery_id}.jpg` : "/Images/default.jpg"}  
                 className="card-img-top" 
                 alt={props.data.name} 
                 style={{border:"solid 1px grey", borderRadius:"10px"}}

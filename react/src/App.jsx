@@ -33,13 +33,16 @@ function App() {
   return (
     <Router>
       <AuthProvider>
-
         <Routes>
           <Route exact path="/" element={<Home grocery_data={grocery_data} setGroceryData={setGroceryData} />} />
           <Route exact path="/groceries/:id" element={<GroceryItemPage setGroceryData={setGroceryData}/> } />
           <Route exact path="/groceries/departments/:category" element={<DepartmentPage setGroceryData={setGroceryData}/> } />
           <Route path="/user/login" element={<LoginForm setGroceryData={setGroceryData}/>} />
-          <Route path="/user/cart" element={<CartPage setGroceryData={setGroceryData}/>} />
+          <Route path="/user/cart" element={
+            <RequireAuth>
+              <CartPage setGroceryData={setGroceryData}/>
+            </RequireAuth>
+          } />
           <Route path="/user/orders" element={<OrdersPage setGroceryData={setGroceryData}/>} />
           <Route path="/Featured" element={<Featured/>}/>
         </Routes>

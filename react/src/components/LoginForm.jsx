@@ -17,7 +17,7 @@ function LoginForm(props) {
     event.preventDefault();
     await login(username, password);
     console.log(username, password);
-    navigate("/add");
+    navigate("/user/cart");
   };
 
   return (

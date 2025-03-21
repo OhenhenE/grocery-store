@@ -379,11 +379,11 @@ app.post("/user/login", async (req, res) => {
     const { username, password } = req.body;
     try {
         const result = await pool.query(
-            "SELECT uid FROM users WHERE username = $1 AND password = $2",
+            "SELECT * FROM users WHERE username = $1 AND password = $2",
             [username, password]
         );
         if (result.rows.length > 0) {
-            res.status(200).json({ uid: result.rows[0].uid });
+            res.status(200).json({ uid: result.rows[0] });
         } else {
             res.status(401).json({ message: "Authentication failed" });
         }

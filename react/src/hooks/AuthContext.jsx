@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (username, password) => {
         try {
-            const response = await fetch(`${import.meta.env.VITE_SOCKS_API_URL}/login`, {
+            const response = await fetch(`http://localhost:5432/user/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -17,10 +17,10 @@ export const AuthProvider = ({ children }) => {
                 body: JSON.stringify({ username, password }),
             });
             const data = await response.json();
-            if (data.uid) {
+            if (data.user_id) {
                 setUser({
-                    username,
-                    uid: data.uid // Storing the uid returned from the server
+                    name: data.name,
+                    user_id: data.user_id // Storing the uid returned from the server
                 });
             } else {
                 throw new Error(data.message || 'Login failed');
@@ -30,36 +30,13 @@ export const AuthProvider = ({ children }) => {
         }
     };
 
-    const register = async (username, email, password) => {
-        try {
-            const response = await fetch(`${import.meta.env.VITE_SOCKS_API_URL}/register`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ username, password }),
-            });
-            const data = await response.json();
-            if (data.uid) {
-                setUser({
-                    username,
-                    email,
-                    uid: data.uid // Storing the uid returned from the server
-                });
-            } else {
-                throw new Error(data.message || 'Registration failed');
-            }
-        } catch (error) {
-            console.error(error);
-        }
-    };
 
     const logout = () => {
         setUser(null); // In real scenarios, you might want to invalidate the session on the server as well
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, register, logout }}>
+        <AuthContext.Provider value={{ user, login, logout }}>
             {children}
         </AuthContext.Provider>
     );

@@ -4,13 +4,13 @@ import SubHeader from "./SubHeader";
 import PaymentForm from "./PaymentForm"
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// import { useAuth } from '../hooks/AuthContext';
+import { useAuth } from '../hooks/AuthContext';
 
 function CartPage(props) {
 
-  //     const { user } = useAuth();
-
-  const user_id = 1;
+  
+  const { user } = useAuth();
+  const user_id = user.user_id;
 
   const [cartData, setCartData] = useState([]);
   const [emptyCart, setEmptyCart] = useState(true);

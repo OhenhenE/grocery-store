@@ -40,7 +40,7 @@ const Search = (props) => {
         onSubmit={handleSubmit}
         style={{
             display: "flex", 
-            paddingLeft:"800px",
+            paddingLeft:"600px",
             paddingRight:"20px"
         }}
         >

@@ -8,7 +8,7 @@ function GroceryItemPage(props) {
     let { id } = useParams();
     const [data, setData] = useState([]);
     const [imageExists, setImageExists] = useState(false); 
-    let inCart = false;
+    const [inCart, setInCart] = useState(false);
 
     useEffect (() => {
         const fetchData = async () => {
@@ -59,11 +59,11 @@ function GroceryItemPage(props) {
             throw new Error(`Could not add new item to shoppung cart`);
           }
 
-          inCart = true;
+          setInCart(true);
         } catch (error) {
           console.error('Error Adding To Cart:', error);
         }} else {
-          inCart = true
+          setInCart(true);
         }
       } 
     
@@ -86,7 +86,7 @@ function GroceryItemPage(props) {
                 <div className="card-text">Aisle: {data.category} | Department: {data.sub_category}</div> 
                 <p className="card-text">Cost: {data.price}</p>
                 <p className="card-text">{data.description}</p>           
-                <button className="btn btn-primary" onClick={addToCart}>Add to Cart</button>
+                <button className="btn btn-primary" onClick={addToCart} disabled={inCart}>{inCart ? "Added" : "Add to Cart"}</button>
             </div>
         </div>
         </>

@@ -39,10 +39,10 @@ knn_pipeline = Pipeline(
 )
 
 # Fit the model
-knn_pipeline.fit(x)
+knn_pipeline.fit(training_data[features])
 
 # Save the model
-with open("new_recommendation_model.pkl", "wb") as f:
+with open("knn_pipeline.pkl", "wb") as f:
     pickle.dump(knn_pipeline, f)
 
 print("Model trained and saved successfully!")

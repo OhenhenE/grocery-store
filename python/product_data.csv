@@ -1,0 +1,1056 @@
+grocery_id,name,category,sub_category,description,price
+1,Chicken Breast,Meat,Poultry,9 Chicken Breast from a Local Farmer,1.7
+2,Whole Milk,Produce,Fruit,8 Whole Milk from a Local Farmer,12.82
+3,Bread,Bakery,Bread,10 Bread from a Local Farmer,7.18
+4,Skim Milk,Beverages,Water,8 Skim Milk from a Local Farmer,2.85
+5,Ice Cream,Produce,Fruit,7 Ice Cream from a Local Farmer,9.09
+6,Cucumbers,Beverages,Water,6 Cucumbers from a Local Farmer,5.52
+7,Whole Milk,Frozen,Frozen Vegetables,4 Whole Milk from a Local Farmer,8.32
+8,Potato Chips,Bakery,Cakes,5 Potato Chips from a Local Farmer,16.14
+9,Spinach,Snacks,Candy,2 Spinach from a Local Farmer,7.56
+10,Cheddar Cheese,Produce,Fruit,5 Cheddar Cheese from a Local Farmer,7.28
+11,Orange Juice,Snacks,Candy,8 Orange Juice from a Local Farmer,4.17
+12,Orange Juice,Snacks,Cookies,10 Orange Juice from a Local Farmer,5.84
+13,Bread,Frozen,Ice Cream,7 Bread from a Local Farmer,7.84
+14,Potato Chips,Snacks,Chips,9 Potato Chips from a Local Farmer,4.73
+15,Chicken Breast,Beverages,Water,8 Chicken Breast from a Local Farmer,5.21
+16,Onions,Dairy,Cheese,6 Onions from a Local Farmer,4.26
+17,Spinach,Snacks,Candy,9 Spinach from a Local Farmer,17.74
+18,Cucumbers,Beverages,Soda,8 Cucumbers from a Local Farmer,8.88
+19,Lettuce,Frozen,Frozen Meals,10 Lettuce from a Local Farmer,11.27
+20,Ground Beef,Meat,Beef,7 Ground Beef from a Local Farmer,10.43
+21,Cucumbers,Produce,Vegetable,1 Cucumbers from a Local Farmer,6.8
+22,Ground Beef,Snacks,Chips,10 Ground Beef from a Local Farmer,2.49
+23,Ice Cream,Canned Goods,Canned Fruits,7 Ice Cream from a Local Farmer,5.99
+24,Broccoli,Produce,Fruit,7 Broccoli from a Local Farmer,19.63
+25,Chicken Breast,Meat,Lamb,10 Chicken Breast from a Local Farmer,5.72
+26,Potato Chips,Beverages,Water,4 Potato Chips from a Local Farmer,4.87
+27,Chicken Breast,Dairy,Milk,1 Chicken Breast from a Local Farmer,12.0
+28,Carrots,Meat,Poultry,4 Carrots from a Local Farmer,2.46
+29,Onions,Snacks,Chips,9 Onions from a Local Farmer,18.9
+30,Cucumbers,Canned Goods,Canned Meat,10 Cucumbers from a Local Farmer,3.42
+31,Spinach,Canned Goods,Canned Fruits,10 Spinach from a Local Farmer,8.05
+32,Cucumbers,Bakery,Pastries,5 Cucumbers from a Local Farmer,17.38
+33,Ice Cream,Beverages,Juice,5 Ice Cream from a Local Farmer,8.73
+34,Cucumbers,Bakery,Bread,6 Cucumbers from a Local Farmer,11.53
+35,Eggs,Beverages,Water,6 Eggs from a Local Farmer,12.8
+36,Cucumbers,Dairy,Yogurt,5 Cucumbers from a Local Farmer,5.71
+37,Onions,Dairy,Milk,9 Onions from a Local Farmer,4.58
+38,Bread,Meat,Poultry,2 Bread from a Local Farmer,1.89
+39,Cucumbers,Dairy,Cheese,5 Cucumbers from a Local Farmer,16.41
+40,Potato Chips,Meat,Lamb,10 Potato Chips from a Local Farmer,1.47
+41,Cucumbers,Dairy,Milk,2 Cucumbers from a Local Farmer,15.99
+42,Cheddar Cheese,Bakery,Bread,5 Cheddar Cheese from a Local Farmer,11.0
+43,Whole Milk,Beverages,Soda,2 Whole Milk from a Local Farmer,17.11
+44,Granny Smith Apples,Meat,Pork,4 Granny Smith Apples from a Local Farmer,7.45
+45,Spinach,Produce,Fruit,6 Spinach from a Local Farmer,3.22
+46,Bread,Bakery,Bread,10 Bread from a Local Farmer,10.88
+47,Granny Smith Apples,Produce,Fruit,5 Granny Smith Apples from a Local Farmer,3.57
+48,Whole Milk,Beverages,Juice,6 Whole Milk from a Local Farmer,7.24
+49,Ground Beef,Snacks,Candy,9 Ground Beef from a Local Farmer,8.84
+50,Spinach,Dairy,Milk,1 Spinach from a Local Farmer,6.78
+51,Broccoli,Snacks,Chips,4 Broccoli from a Local Farmer,2.69
+52,Eggs,Frozen,Frozen Vegetables,8 Eggs from a Local Farmer,19.17
+53,Bananas,Canned Goods,Canned Meat,10 Bananas from a Local Farmer,14.47
+54,Eggs,Produce,Fruit,3 Eggs from a Local Farmer,15.39
+55,Granny Smith Apples,Produce,Vegetable,10 Granny Smith Apples from a Local Farmer,1.16
+56,Eggs,Beverages,Juice,8 Eggs from a Local Farmer,5.88
+57,Potato Chips,Bakery,Pastries,1 Potato Chips from a Local Farmer,2.86
+58,Chicken Breast,Bakery,Cakes,10 Chicken Breast from a Local Farmer,6.07
+59,Whole Milk,Canned Goods,Canned Fruits,9 Whole Milk from a Local Farmer,15.14
+60,Ice Cream,Snacks,Chips,8 Ice Cream from a Local Farmer,6.75
+61,Broccoli,Canned Goods,Canned Fruits,10 Broccoli from a Local Farmer,11.39
+62,Ground Beef,Produce,Vegetable,7 Ground Beef from a Local Farmer,11.48
+63,Bananas,Meat,Lamb,6 Bananas from a Local Farmer,7.05
+64,Whole Milk,Beverages,Water,5 Whole Milk from a Local Farmer,17.34
+65,Cucumbers,Snacks,Chips,6 Cucumbers from a Local Farmer,3.37
+66,Ice Cream,Frozen,Frozen Meals,3 Ice Cream from a Local Farmer,6.59
+67,Eggs,Meat,Pork,9 Eggs from a Local Farmer,13.77
+68,Whole Milk,Bakery,Bread,3 Whole Milk from a Local Farmer,8.85
+69,Broccoli,Frozen,Ice Cream,10 Broccoli from a Local Farmer,13.61
+70,Tomatoes,Beverages,Water,2 Tomatoes from a Local Farmer,6.91
+71,Orange Juice,Dairy,Milk,1 Orange Juice from a Local Farmer,16.72
+72,Carrots,Bakery,Bread,4 Carrots from a Local Farmer,2.67
+73,Spinach,Beverages,Soda,1 Spinach from a Local Farmer,16.08
+74,Potato Chips,Produce,Fruit,3 Potato Chips from a Local Farmer,4.55
+75,Whole Milk,Frozen,Ice Cream,10 Whole Milk from a Local Farmer,10.4
+76,Onions,Produce,Fruit,6 Onions from a Local Farmer,10.41
+77,Tomatoes,Dairy,Cheese,7 Tomatoes from a Local Farmer,3.65
+78,Cheddar Cheese,Meat,Poultry,9 Cheddar Cheese from a Local Farmer,13.05
+79,Spinach,Bakery,Cakes,3 Spinach from a Local Farmer,2.94
+80,Broccoli,Dairy,Yogurt,1 Broccoli from a Local Farmer,7.59
+81,Broccoli,Dairy,Milk,8 Broccoli from a Local Farmer,15.21
+82,Bananas,Produce,Fruit,1 Bananas from a Local Farmer,7.74
+83,Spinach,Beverages,Soda,5 Spinach from a Local Farmer,9.63
+84,Potato Chips,Canned Goods,Canned Fruits,7 Potato Chips from a Local Farmer,11.35
+85,Ground Beef,Dairy,Cheese,9 Ground Beef from a Local Farmer,1.56
+86,Granny Smith Apples,Bakery,Pastries,4 Granny Smith Apples from a Local Farmer,13.83
+87,Potato Chips,Beverages,Water,2 Potato Chips from a Local Farmer,8.81
+88,Broccoli,Meat,Pork,5 Broccoli from a Local Farmer,5.1
+89,Potato Chips,Dairy,Cheese,9 Potato Chips from a Local Farmer,2.29
+90,Tomatoes,Produce,Fruit,9 Tomatoes from a Local Farmer,8.39
+91,Bananas,Bakery,Cakes,3 Bananas from a Local Farmer,1.88
+92,Carrots,Meat,Beef,9 Carrots from a Local Farmer,12.91
+93,Granny Smith Apples,Beverages,Juice,10 Granny Smith Apples from a Local Farmer,8.75
+94,Onions,Snacks,Cookies,2 Onions from a Local Farmer,10.61
+95,Whole Milk,Produce,Fruit,7 Whole Milk from a Local Farmer,5.65
+96,Potato Chips,Dairy,Yogurt,1 Potato Chips from a Local Farmer,15.01
+97,Spinach,Dairy,Milk,1 Spinach from a Local Farmer,9.39
+98,Bananas,Dairy,Milk,6 Bananas from a Local Farmer,12.92
+99,Tomatoes,Beverages,Juice,3 Tomatoes from a Local Farmer,18.45
+100,Whole Milk,Snacks,Cookies,2 Whole Milk from a Local Farmer,15.87
+101,Bananas,Frozen,Frozen Vegetables,8 Bananas from a Local Farmer,11.12
+102,Broccoli,Snacks,Candy,6 Broccoli from a Local Farmer,14.0
+103,Lettuce,Canned Goods,Canned Fruits,1 Lettuce from a Local Farmer,8.72
+104,Bananas,Produce,Vegetable,5 Bananas from a Local Farmer,17.3
+105,Lettuce,Beverages,Soda,7 Lettuce from a Local Farmer,5.98
+106,Chicken Breast,Produce,Vegetable,6 Chicken Breast from a Local Farmer,12.87
+107,Broccoli,Frozen,Frozen Vegetables,9 Broccoli from a Local Farmer,6.06
+108,Lettuce,Dairy,Milk,5 Lettuce from a Local Farmer,11.18
+109,Cucumbers,Canned Goods,Canned Fruits,1 Cucumbers from a Local Farmer,18.21
+110,Tomatoes,Meat,Beef,8 Tomatoes from a Local Farmer,1.85
+111,Bread,Bakery,Cakes,3 Bread from a Local Farmer,1.13
+112,Skim Milk,Canned Goods,Canned Meat,10 Skim Milk from a Local Farmer,2.93
+113,Broccoli,Beverages,Water,6 Broccoli from a Local Farmer,19.36
+114,Skim Milk,Meat,Beef,3 Skim Milk from a Local Farmer,13.91
+115,Whole Milk,Produce,Fruit,4 Whole Milk from a Local Farmer,18.84
+116,Bananas,Frozen,Frozen Meals,4 Bananas from a Local Farmer,9.53
+117,Onions,Dairy,Cheese,5 Onions from a Local Farmer,1.26
+118,Carrots,Meat,Beef,10 Carrots from a Local Farmer,19.04
+119,Granny Smith Apples,Beverages,Water,10 Granny Smith Apples from a Local Farmer,9.54
+120,Ice Cream,Produce,Fruit,8 Ice Cream from a Local Farmer,1.09
+121,Potato Chips,Snacks,Cookies,6 Potato Chips from a Local Farmer,13.4
+122,Tomatoes,Snacks,Cookies,10 Tomatoes from a Local Farmer,6.66
+123,Spinach,Snacks,Candy,4 Spinach from a Local Farmer,10.92
+124,Onions,Produce,Vegetable,4 Onions from a Local Farmer,19.91
+125,Chicken Breast,Produce,Fruit,3 Chicken Breast from a Local Farmer,7.68
+126,Bread,Bakery,Pastries,8 Bread from a Local Farmer,10.41
+127,Red Delicious Apples,Canned Goods,Canned Fruits,4 Red Delicious Apples from a Local Farmer,12.85
+128,Onions,Canned Goods,Canned Fruits,1 Onions from a Local Farmer,7.99
+129,Potato Chips,Produce,Fruit,7 Potato Chips from a Local Farmer,3.56
+130,Chicken Breast,Frozen,Ice Cream,9 Chicken Breast from a Local Farmer,5.24
+131,Broccoli,Beverages,Water,2 Broccoli from a Local Farmer,8.16
+132,Ground Beef,Meat,Poultry,2 Ground Beef from a Local Farmer,12.15
+133,Whole Milk,Produce,Fruit,2 Whole Milk from a Local Farmer,7.1
+134,Ground Beef,Bakery,Pastries,9 Ground Beef from a Local Farmer,1.61
+135,Bananas,Canned Goods,Canned Vegetables,6 Bananas from a Local Farmer,7.08
+136,Spinach,Dairy,Cheese,5 Spinach from a Local Farmer,14.08
+137,Tomatoes,Bakery,Bread,2 Tomatoes from a Local Farmer,3.9
+138,Cucumbers,Snacks,Cookies,6 Cucumbers from a Local Farmer,6.56
+139,Bananas,Frozen,Frozen Vegetables,1 Bananas from a Local Farmer,13.7
+140,Chicken Breast,Frozen,Frozen Vegetables,6 Chicken Breast from a Local Farmer,7.99
+141,Potato Chips,Produce,Vegetable,5 Potato Chips from a Local Farmer,11.49
+142,Eggs,Snacks,Cookies,8 Eggs from a Local Farmer,4.02
+143,Tomatoes,Produce,Vegetable,7 Tomatoes from a Local Farmer,12.65
+144,Eggs,Beverages,Soda,7 Eggs from a Local Farmer,11.34
+145,Eggs,Bakery,Cakes,1 Eggs from a Local Farmer,18.02
+146,Bread,Beverages,Water,6 Bread from a Local Farmer,8.47
+147,Onions,Bakery,Bread,9 Onions from a Local Farmer,14.92
+148,Red Delicious Apples,Snacks,Chips,6 Red Delicious Apples from a Local Farmer,17.73
+149,Carrots,Bakery,Pastries,10 Carrots from a Local Farmer,5.76
+150,Bananas,Frozen,Ice Cream,5 Bananas from a Local Farmer,14.61
+151,Carrots,Meat,Pork,10 Carrots from a Local Farmer,16.07
+152,Tomatoes,Frozen,Ice Cream,5 Tomatoes from a Local Farmer,8.92
+153,Potato Chips,Beverages,Juice,9 Potato Chips from a Local Farmer,18.59
+154,Skim Milk,Frozen,Ice Cream,5 Skim Milk from a Local Farmer,7.93
+155,Whole Milk,Canned Goods,Canned Fruits,3 Whole Milk from a Local Farmer,2.8
+156,Cheddar Cheese,Snacks,Chips,4 Cheddar Cheese from a Local Farmer,13.29
+157,Ice Cream,Meat,Poultry,9 Ice Cream from a Local Farmer,16.71
+158,Red Delicious Apples,Snacks,Chips,5 Red Delicious Apples from a Local Farmer,16.81
+159,Skim Milk,Dairy,Cheese,4 Skim Milk from a Local Farmer,17.34
+160,Cucumbers,Snacks,Chips,3 Cucumbers from a Local Farmer,5.44
+161,Bread,Frozen,Ice Cream,6 Bread from a Local Farmer,5.75
+162,Ice Cream,Beverages,Water,4 Ice Cream from a Local Farmer,13.11
+163,Bananas,Canned Goods,Canned Meat,1 Bananas from a Local Farmer,5.08
+164,Broccoli,Dairy,Milk,5 Broccoli from a Local Farmer,3.27
+165,Orange Juice,Canned Goods,Canned Vegetables,8 Orange Juice from a Local Farmer,18.67
+166,Spinach,Meat,Beef,7 Spinach from a Local Farmer,17.36
+167,Whole Milk,Frozen,Ice Cream,7 Whole Milk from a Local Farmer,14.7
+168,Granny Smith Apples,Meat,Beef,4 Granny Smith Apples from a Local Farmer,12.92
+169,Tomatoes,Beverages,Juice,4 Tomatoes from a Local Farmer,3.41
+170,Red Delicious Apples,Dairy,Milk,3 Red Delicious Apples from a Local Farmer,1.28
+171,Bananas,Beverages,Juice,9 Bananas from a Local Farmer,15.9
+172,Red Delicious Apples,Meat,Poultry,2 Red Delicious Apples from a Local Farmer,9.17
+173,Bread,Snacks,Cookies,4 Bread from a Local Farmer,7.39
+174,Eggs,Bakery,Bread,5 Eggs from a Local Farmer,8.86
+175,Tomatoes,Dairy,Cheese,3 Tomatoes from a Local Farmer,3.61
+176,Cheddar Cheese,Snacks,Cookies,9 Cheddar Cheese from a Local Farmer,4.05
+177,Onions,Beverages,Soda,4 Onions from a Local Farmer,5.2
+178,Broccoli,Dairy,Milk,6 Broccoli from a Local Farmer,15.63
+179,Bread,Snacks,Candy,9 Bread from a Local Farmer,1.46
+180,Lettuce,Canned Goods,Canned Meat,8 Lettuce from a Local Farmer,5.53
+181,Potato Chips,Meat,Poultry,2 Potato Chips from a Local Farmer,14.5
+182,Cheddar Cheese,Frozen,Ice Cream,3 Cheddar Cheese from a Local Farmer,3.53
+183,Eggs,Frozen,Frozen Meals,6 Eggs from a Local Farmer,8.24
+184,Cheddar Cheese,Frozen,Frozen Meals,8 Cheddar Cheese from a Local Farmer,19.02
+185,Eggs,Produce,Vegetable,4 Eggs from a Local Farmer,10.27
+186,Ice Cream,Beverages,Juice,1 Ice Cream from a Local Farmer,15.42
+187,Skim Milk,Beverages,Water,7 Skim Milk from a Local Farmer,4.14
+188,Carrots,Canned Goods,Canned Meat,9 Carrots from a Local Farmer,11.05
+189,Eggs,Beverages,Water,3 Eggs from a Local Farmer,1.75
+190,Onions,Bakery,Cakes,10 Onions from a Local Farmer,12.33
+191,Ground Beef,Dairy,Milk,1 Ground Beef from a Local Farmer,3.61
+192,Broccoli,Bakery,Cakes,2 Broccoli from a Local Farmer,1.69
+193,Granny Smith Apples,Frozen,Frozen Vegetables,8 Granny Smith Apples from a Local Farmer,9.67
+194,Broccoli,Canned Goods,Canned Fruits,10 Broccoli from a Local Farmer,19.64
+195,Chicken Breast,Produce,Vegetable,5 Chicken Breast from a Local Farmer,16.11
+196,Tomatoes,Frozen,Ice Cream,3 Tomatoes from a Local Farmer,6.68
+197,Carrots,Meat,Poultry,10 Carrots from a Local Farmer,17.09
+198,Eggs,Produce,Vegetable,1 Eggs from a Local Farmer,10.24
+199,Orange Juice,Bakery,Bread,4 Orange Juice from a Local Farmer,7.44
+200,Potato Chips,Produce,Fruit,1 Potato Chips from a Local Farmer,16.92
+201,Cheddar Cheese,Snacks,Cookies,10 Cheddar Cheese from a Local Farmer,14.65
+202,Potato Chips,Beverages,Juice,10 Potato Chips from a Local Farmer,6.19
+203,Bread,Frozen,Ice Cream,6 Bread from a Local Farmer,11.65
+204,Onions,Frozen,Ice Cream,6 Onions from a Local Farmer,17.8
+205,Tomatoes,Dairy,Milk,5 Tomatoes from a Local Farmer,2.86
+206,Onions,Canned Goods,Canned Meat,10 Onions from a Local Farmer,16.68
+207,Tomatoes,Bakery,Pastries,3 Tomatoes from a Local Farmer,5.86
+208,Ice Cream,Snacks,Candy,7 Ice Cream from a Local Farmer,2.92
+209,Granny Smith Apples,Meat,Poultry,1 Granny Smith Apples from a Local Farmer,15.43
+210,Chicken Breast,Meat,Beef,2 Chicken Breast from a Local Farmer,6.57
+211,Onions,Snacks,Chips,5 Onions from a Local Farmer,3.82
+212,Eggs,Canned Goods,Canned Fruits,1 Eggs from a Local Farmer,12.85
+213,Ground Beef,Meat,Poultry,2 Ground Beef from a Local Farmer,12.24
+214,Onions,Frozen,Ice Cream,3 Onions from a Local Farmer,11.38
+215,Carrots,Meat,Lamb,6 Carrots from a Local Farmer,14.64
+216,Granny Smith Apples,Bakery,Bread,1 Granny Smith Apples from a Local Farmer,11.99
+217,Onions,Beverages,Soda,6 Onions from a Local Farmer,10.6
+218,Ice Cream,Meat,Poultry,5 Ice Cream from a Local Farmer,8.76
+219,Skim Milk,Meat,Pork,9 Skim Milk from a Local Farmer,9.77
+220,Ice Cream,Produce,Fruit,8 Ice Cream from a Local Farmer,9.56
+221,Granny Smith Apples,Produce,Vegetable,7 Granny Smith Apples from a Local Farmer,7.48
+222,Orange Juice,Meat,Poultry,7 Orange Juice from a Local Farmer,7.82
+223,Chicken Breast,Snacks,Chips,7 Chicken Breast from a Local Farmer,3.96
+224,Spinach,Snacks,Candy,1 Spinach from a Local Farmer,5.84
+225,Tomatoes,Dairy,Yogurt,5 Tomatoes from a Local Farmer,16.69
+226,Tomatoes,Canned Goods,Canned Vegetables,9 Tomatoes from a Local Farmer,13.76
+227,Ground Beef,Produce,Fruit,10 Ground Beef from a Local Farmer,7.1
+228,Cucumbers,Bakery,Cakes,6 Cucumbers from a Local Farmer,17.39
+229,Whole Milk,Meat,Pork,6 Whole Milk from a Local Farmer,1.23
+230,Carrots,Frozen,Frozen Vegetables,10 Carrots from a Local Farmer,3.35
+231,Cucumbers,Dairy,Yogurt,4 Cucumbers from a Local Farmer,11.79
+232,Potato Chips,Beverages,Water,10 Potato Chips from a Local Farmer,11.78
+233,Red Delicious Apples,Dairy,Yogurt,3 Red Delicious Apples from a Local Farmer,11.86
+234,Lettuce,Dairy,Cheese,1 Lettuce from a Local Farmer,7.23
+235,Lettuce,Meat,Beef,1 Lettuce from a Local Farmer,10.58
+236,Ground Beef,Frozen,Frozen Vegetables,1 Ground Beef from a Local Farmer,3.4
+237,Whole Milk,Canned Goods,Canned Meat,3 Whole Milk from a Local Farmer,17.84
+238,Lettuce,Bakery,Pastries,9 Lettuce from a Local Farmer,2.52
+239,Ice Cream,Bakery,Cakes,8 Ice Cream from a Local Farmer,6.16
+240,Granny Smith Apples,Meat,Poultry,2 Granny Smith Apples from a Local Farmer,8.68
+241,Potato Chips,Meat,Beef,7 Potato Chips from a Local Farmer,15.51
+242,Whole Milk,Frozen,Frozen Meals,5 Whole Milk from a Local Farmer,14.55
+243,Carrots,Bakery,Cakes,3 Carrots from a Local Farmer,5.78
+244,Orange Juice,Snacks,Cookies,8 Orange Juice from a Local Farmer,7.36
+245,Whole Milk,Snacks,Candy,9 Whole Milk from a Local Farmer,4.42
+246,Potato Chips,Frozen,Ice Cream,10 Potato Chips from a Local Farmer,7.11
+247,Tomatoes,Snacks,Candy,2 Tomatoes from a Local Farmer,4.87
+248,Cheddar Cheese,Produce,Fruit,9 Cheddar Cheese from a Local Farmer,9.03
+249,Chicken Breast,Frozen,Frozen Vegetables,9 Chicken Breast from a Local Farmer,2.8
+250,Bananas,Produce,Vegetable,4 Bananas from a Local Farmer,9.95
+251,Cucumbers,Produce,Fruit,3 Cucumbers from a Local Farmer,19.03
+252,Onions,Canned Goods,Canned Fruits,1 Onions from a Local Farmer,3.72
+253,Red Delicious Apples,Dairy,Cheese,10 Red Delicious Apples from a Local Farmer,5.95
+254,Granny Smith Apples,Beverages,Soda,5 Granny Smith Apples from a Local Farmer,6.18
+255,Lettuce,Frozen,Ice Cream,1 Lettuce from a Local Farmer,4.48
+256,Ice Cream,Produce,Fruit,3 Ice Cream from a Local Farmer,7.82
+257,Cheddar Cheese,Canned Goods,Canned Meat,9 Cheddar Cheese from a Local Farmer,14.96
+258,Granny Smith Apples,Meat,Beef,2 Granny Smith Apples from a Local Farmer,11.49
+259,Ice Cream,Produce,Fruit,4 Ice Cream from a Local Farmer,16.04
+260,Tomatoes,Produce,Vegetable,9 Tomatoes from a Local Farmer,14.66
+261,Skim Milk,Canned Goods,Canned Meat,1 Skim Milk from a Local Farmer,17.85
+262,Red Delicious Apples,Snacks,Candy,9 Red Delicious Apples from a Local Farmer,3.18
+263,Tomatoes,Dairy,Yogurt,4 Tomatoes from a Local Farmer,12.58
+264,Bread,Snacks,Chips,9 Bread from a Local Farmer,4.34
+265,Skim Milk,Meat,Lamb,3 Skim Milk from a Local Farmer,3.83
+266,Orange Juice,Bakery,Cakes,4 Orange Juice from a Local Farmer,18.89
+267,Eggs,Canned Goods,Canned Meat,10 Eggs from a Local Farmer,3.02
+268,Carrots,Frozen,Frozen Meals,5 Carrots from a Local Farmer,19.47
+269,Cucumbers,Bakery,Pastries,9 Cucumbers from a Local Farmer,14.13
+270,Eggs,Beverages,Soda,10 Eggs from a Local Farmer,3.14
+271,Potato Chips,Frozen,Frozen Meals,3 Potato Chips from a Local Farmer,8.7
+272,Red Delicious Apples,Beverages,Soda,3 Red Delicious Apples from a Local Farmer,1.87
+273,Spinach,Snacks,Chips,1 Spinach from a Local Farmer,18.33
+274,Bread,Meat,Poultry,8 Bread from a Local Farmer,14.4
+275,Ice Cream,Meat,Poultry,3 Ice Cream from a Local Farmer,8.28
+276,Ground Beef,Dairy,Yogurt,2 Ground Beef from a Local Farmer,4.31
+277,Whole Milk,Canned Goods,Canned Fruits,7 Whole Milk from a Local Farmer,2.08
+278,Broccoli,Dairy,Milk,10 Broccoli from a Local Farmer,17.2
+279,Skim Milk,Meat,Beef,5 Skim Milk from a Local Farmer,8.61
+280,Broccoli,Canned Goods,Canned Vegetables,1 Broccoli from a Local Farmer,2.36
+281,Cheddar Cheese,Bakery,Cakes,2 Cheddar Cheese from a Local Farmer,16.75
+282,Spinach,Dairy,Milk,5 Spinach from a Local Farmer,13.08
+283,Ice Cream,Produce,Fruit,8 Ice Cream from a Local Farmer,10.23
+284,Spinach,Produce,Vegetable,7 Spinach from a Local Farmer,1.45
+285,Carrots,Produce,Fruit,5 Carrots from a Local Farmer,18.63
+286,Orange Juice,Bakery,Pastries,4 Orange Juice from a Local Farmer,6.46
+287,Onions,Meat,Pork,2 Onions from a Local Farmer,2.78
+288,Orange Juice,Snacks,Cookies,3 Orange Juice from a Local Farmer,8.25
+289,Eggs,Meat,Lamb,5 Eggs from a Local Farmer,6.37
+290,Bananas,Dairy,Cheese,5 Bananas from a Local Farmer,17.15
+291,Lettuce,Bakery,Cakes,10 Lettuce from a Local Farmer,17.68
+292,Onions,Dairy,Yogurt,5 Onions from a Local Farmer,14.27
+293,Red Delicious Apples,Frozen,Ice Cream,3 Red Delicious Apples from a Local Farmer,18.26
+294,Granny Smith Apples,Dairy,Yogurt,5 Granny Smith Apples from a Local Farmer,8.43
+295,Chicken Breast,Bakery,Bread,9 Chicken Breast from a Local Farmer,16.44
+296,Cheddar Cheese,Canned Goods,Canned Fruits,4 Cheddar Cheese from a Local Farmer,17.82
+297,Bread,Meat,Poultry,9 Bread from a Local Farmer,6.71
+298,Skim Milk,Dairy,Cheese,6 Skim Milk from a Local Farmer,10.1
+299,Lettuce,Frozen,Frozen Vegetables,9 Lettuce from a Local Farmer,16.11
+300,Ground Beef,Bakery,Bread,8 Ground Beef from a Local Farmer,11.55
+301,Bread,Dairy,Milk,8 Bread from a Local Farmer,4.06
+302,Broccoli,Frozen,Frozen Meals,2 Broccoli from a Local Farmer,8.5
+303,Tomatoes,Beverages,Soda,5 Tomatoes from a Local Farmer,6.11
+304,Cucumbers,Canned Goods,Canned Meat,8 Cucumbers from a Local Farmer,13.07
+305,Ice Cream,Dairy,Milk,6 Ice Cream from a Local Farmer,7.4
+306,Ice Cream,Produce,Vegetable,2 Ice Cream from a Local Farmer,14.75
+307,Eggs,Snacks,Candy,2 Eggs from a Local Farmer,16.8
+308,Ice Cream,Snacks,Chips,2 Ice Cream from a Local Farmer,7.03
+309,Bread,Dairy,Cheese,2 Bread from a Local Farmer,9.74
+310,Red Delicious Apples,Produce,Fruit,7 Red Delicious Apples from a Local Farmer,11.85
+311,Carrots,Dairy,Yogurt,3 Carrots from a Local Farmer,12.02
+312,Chicken Breast,Dairy,Milk,9 Chicken Breast from a Local Farmer,16.31
+313,Chicken Breast,Frozen,Frozen Meals,6 Chicken Breast from a Local Farmer,14.18
+314,Ice Cream,Frozen,Ice Cream,10 Ice Cream from a Local Farmer,5.59
+315,Cucumbers,Snacks,Candy,3 Cucumbers from a Local Farmer,18.97
+316,Bananas,Dairy,Cheese,10 Bananas from a Local Farmer,18.66
+317,Tomatoes,Produce,Vegetable,6 Tomatoes from a Local Farmer,16.41
+318,Tomatoes,Produce,Vegetable,6 Tomatoes from a Local Farmer,4.92
+319,Bread,Canned Goods,Canned Meat,3 Bread from a Local Farmer,1.2
+320,Ice Cream,Produce,Vegetable,7 Ice Cream from a Local Farmer,1.35
+321,Granny Smith Apples,Dairy,Milk,8 Granny Smith Apples from a Local Farmer,5.45
+322,Spinach,Bakery,Bread,3 Spinach from a Local Farmer,17.53
+323,Bananas,Bakery,Pastries,6 Bananas from a Local Farmer,19.7
+324,Carrots,Snacks,Chips,4 Carrots from a Local Farmer,16.02
+325,Eggs,Produce,Vegetable,7 Eggs from a Local Farmer,8.75
+326,Potato Chips,Snacks,Candy,3 Potato Chips from a Local Farmer,13.36
+327,Spinach,Snacks,Cookies,1 Spinach from a Local Farmer,12.42
+328,Red Delicious Apples,Canned Goods,Canned Meat,5 Red Delicious Apples from a Local Farmer,9.31
+329,Orange Juice,Snacks,Candy,5 Orange Juice from a Local Farmer,2.31
+330,Eggs,Beverages,Water,7 Eggs from a Local Farmer,7.58
+331,Onions,Beverages,Juice,5 Onions from a Local Farmer,14.22
+332,Skim Milk,Produce,Fruit,8 Skim Milk from a Local Farmer,15.29
+333,Spinach,Meat,Pork,8 Spinach from a Local Farmer,10.75
+334,Onions,Bakery,Cakes,7 Onions from a Local Farmer,18.75
+335,Cucumbers,Meat,Pork,1 Cucumbers from a Local Farmer,6.9
+336,Tomatoes,Frozen,Ice Cream,5 Tomatoes from a Local Farmer,11.02
+337,Potato Chips,Snacks,Candy,1 Potato Chips from a Local Farmer,4.6
+338,Potato Chips,Bakery,Cakes,9 Potato Chips from a Local Farmer,19.06
+339,Cucumbers,Dairy,Cheese,6 Cucumbers from a Local Farmer,12.55
+340,Carrots,Bakery,Cakes,9 Carrots from a Local Farmer,3.53
+341,Chicken Breast,Snacks,Chips,10 Chicken Breast from a Local Farmer,2.03
+342,Cheddar Cheese,Meat,Poultry,2 Cheddar Cheese from a Local Farmer,15.5
+343,Orange Juice,Meat,Beef,3 Orange Juice from a Local Farmer,19.6
+344,Broccoli,Canned Goods,Canned Fruits,4 Broccoli from a Local Farmer,16.89
+345,Broccoli,Beverages,Water,4 Broccoli from a Local Farmer,9.74
+346,Tomatoes,Meat,Beef,8 Tomatoes from a Local Farmer,17.9
+347,Potato Chips,Frozen,Ice Cream,4 Potato Chips from a Local Farmer,1.22
+348,Ground Beef,Meat,Pork,9 Ground Beef from a Local Farmer,3.96
+349,Granny Smith Apples,Meat,Pork,1 Granny Smith Apples from a Local Farmer,12.54
+350,Bread,Snacks,Cookies,1 Bread from a Local Farmer,11.56
+351,Cheddar Cheese,Beverages,Water,4 Cheddar Cheese from a Local Farmer,10.49
+352,Bread,Produce,Vegetable,2 Bread from a Local Farmer,12.39
+353,Tomatoes,Canned Goods,Canned Meat,10 Tomatoes from a Local Farmer,11.59
+354,Broccoli,Beverages,Juice,4 Broccoli from a Local Farmer,19.13
+355,Carrots,Canned Goods,Canned Fruits,9 Carrots from a Local Farmer,19.09
+356,Potato Chips,Snacks,Candy,5 Potato Chips from a Local Farmer,10.43
+357,Ground Beef,Bakery,Cakes,10 Ground Beef from a Local Farmer,13.36
+358,Onions,Meat,Poultry,7 Onions from a Local Farmer,3.36
+359,Skim Milk,Snacks,Candy,6 Skim Milk from a Local Farmer,14.21
+360,Eggs,Produce,Fruit,4 Eggs from a Local Farmer,5.13
+361,Bread,Snacks,Cookies,5 Bread from a Local Farmer,10.78
+362,Onions,Meat,Pork,4 Onions from a Local Farmer,18.78
+363,Bananas,Meat,Lamb,5 Bananas from a Local Farmer,11.86
+364,Onions,Produce,Fruit,4 Onions from a Local Farmer,6.98
+365,Spinach,Produce,Vegetable,3 Spinach from a Local Farmer,4.57
+366,Cucumbers,Meat,Beef,3 Cucumbers from a Local Farmer,18.76
+367,Tomatoes,Frozen,Frozen Meals,6 Tomatoes from a Local Farmer,14.66
+368,Red Delicious Apples,Meat,Lamb,3 Red Delicious Apples from a Local Farmer,18.92
+369,Broccoli,Snacks,Chips,10 Broccoli from a Local Farmer,16.34
+370,Orange Juice,Frozen,Frozen Vegetables,7 Orange Juice from a Local Farmer,5.18
+371,Cheddar Cheese,Canned Goods,Canned Fruits,9 Cheddar Cheese from a Local Farmer,1.97
+372,Broccoli,Bakery,Bread,6 Broccoli from a Local Farmer,5.17
+373,Onions,Bakery,Bread,5 Onions from a Local Farmer,18.92
+374,Lettuce,Dairy,Milk,6 Lettuce from a Local Farmer,7.92
+375,Ground Beef,Beverages,Soda,10 Ground Beef from a Local Farmer,3.66
+376,Broccoli,Meat,Pork,4 Broccoli from a Local Farmer,11.84
+377,Lettuce,Bakery,Pastries,1 Lettuce from a Local Farmer,9.59
+378,Granny Smith Apples,Bakery,Cakes,10 Granny Smith Apples from a Local Farmer,15.81
+379,Granny Smith Apples,Snacks,Chips,2 Granny Smith Apples from a Local Farmer,10.57
+380,Spinach,Meat,Poultry,1 Spinach from a Local Farmer,1.34
+381,Whole Milk,Meat,Pork,8 Whole Milk from a Local Farmer,3.12
+382,Lettuce,Frozen,Ice Cream,8 Lettuce from a Local Farmer,16.79
+383,Skim Milk,Bakery,Cakes,8 Skim Milk from a Local Farmer,3.08
+384,Onions,Produce,Vegetable,4 Onions from a Local Farmer,3.63
+385,Ice Cream,Canned Goods,Canned Vegetables,8 Ice Cream from a Local Farmer,18.72
+386,Cucumbers,Snacks,Candy,5 Cucumbers from a Local Farmer,13.87
+387,Cheddar Cheese,Dairy,Cheese,4 Cheddar Cheese from a Local Farmer,18.59
+388,Granny Smith Apples,Snacks,Cookies,3 Granny Smith Apples from a Local Farmer,13.25
+389,Broccoli,Produce,Vegetable,9 Broccoli from a Local Farmer,14.05
+390,Carrots,Canned Goods,Canned Vegetables,3 Carrots from a Local Farmer,3.28
+391,Ground Beef,Snacks,Candy,4 Ground Beef from a Local Farmer,11.3
+392,Lettuce,Snacks,Cookies,8 Lettuce from a Local Farmer,14.39
+393,Eggs,Canned Goods,Canned Fruits,7 Eggs from a Local Farmer,11.31
+394,Ice Cream,Meat,Lamb,6 Ice Cream from a Local Farmer,7.76
+395,Cucumbers,Produce,Fruit,7 Cucumbers from a Local Farmer,7.58
+396,Onions,Bakery,Cakes,6 Onions from a Local Farmer,7.24
+397,Lettuce,Beverages,Juice,8 Lettuce from a Local Farmer,19.86
+398,Bread,Frozen,Ice Cream,5 Bread from a Local Farmer,2.52
+399,Whole Milk,Bakery,Bread,5 Whole Milk from a Local Farmer,3.78
+400,Ice Cream,Bakery,Bread,4 Ice Cream from a Local Farmer,12.65
+401,Skim Milk,Frozen,Ice Cream,9 Skim Milk from a Local Farmer,17.42
+402,Ice Cream,Bakery,Pastries,10 Ice Cream from a Local Farmer,2.42
+403,Broccoli,Meat,Pork,10 Broccoli from a Local Farmer,4.5
+404,Lettuce,Frozen,Ice Cream,2 Lettuce from a Local Farmer,11.45
+405,Ground Beef,Dairy,Yogurt,2 Ground Beef from a Local Farmer,2.0
+406,Carrots,Beverages,Soda,5 Carrots from a Local Farmer,14.12
+407,Granny Smith Apples,Dairy,Milk,7 Granny Smith Apples from a Local Farmer,17.28
+408,Ground Beef,Dairy,Yogurt,9 Ground Beef from a Local Farmer,1.14
+409,Chicken Breast,Beverages,Soda,5 Chicken Breast from a Local Farmer,11.14
+410,Granny Smith Apples,Frozen,Ice Cream,3 Granny Smith Apples from a Local Farmer,2.48
+411,Whole Milk,Beverages,Soda,10 Whole Milk from a Local Farmer,12.4
+412,Ice Cream,Snacks,Chips,2 Ice Cream from a Local Farmer,19.11
+413,Whole Milk,Dairy,Milk,4 Whole Milk from a Local Farmer,8.96
+414,Cucumbers,Canned Goods,Canned Fruits,4 Cucumbers from a Local Farmer,3.1
+415,Chicken Breast,Bakery,Bread,6 Chicken Breast from a Local Farmer,5.53
+416,Cucumbers,Produce,Vegetable,10 Cucumbers from a Local Farmer,4.48
+417,Red Delicious Apples,Beverages,Soda,5 Red Delicious Apples from a Local Farmer,5.21
+418,Carrots,Frozen,Frozen Meals,5 Carrots from a Local Farmer,9.02
+419,Spinach,Dairy,Milk,10 Spinach from a Local Farmer,7.21
+420,Bananas,Canned Goods,Canned Meat,10 Bananas from a Local Farmer,17.84
+421,Cucumbers,Meat,Poultry,6 Cucumbers from a Local Farmer,17.7
+422,Red Delicious Apples,Bakery,Bread,4 Red Delicious Apples from a Local Farmer,3.18
+423,Red Delicious Apples,Meat,Lamb,9 Red Delicious Apples from a Local Farmer,13.37
+424,Ground Beef,Dairy,Yogurt,3 Ground Beef from a Local Farmer,11.87
+425,Eggs,Meat,Pork,10 Eggs from a Local Farmer,18.41
+426,Ground Beef,Snacks,Cookies,10 Ground Beef from a Local Farmer,4.43
+427,Bananas,Frozen,Ice Cream,4 Bananas from a Local Farmer,17.43
+428,Cheddar Cheese,Dairy,Milk,10 Cheddar Cheese from a Local Farmer,15.56
+429,Ground Beef,Snacks,Cookies,2 Ground Beef from a Local Farmer,11.27
+430,Cucumbers,Frozen,Frozen Vegetables,1 Cucumbers from a Local Farmer,12.18
+431,Red Delicious Apples,Produce,Fruit,5 Red Delicious Apples from a Local Farmer,2.0
+432,Eggs,Produce,Fruit,6 Eggs from a Local Farmer,14.56
+433,Lettuce,Meat,Lamb,1 Lettuce from a Local Farmer,9.67
+434,Granny Smith Apples,Beverages,Soda,7 Granny Smith Apples from a Local Farmer,9.58
+435,Spinach,Frozen,Ice Cream,10 Spinach from a Local Farmer,18.36
+436,Cheddar Cheese,Beverages,Water,3 Cheddar Cheese from a Local Farmer,6.56
+437,Cheddar Cheese,Beverages,Soda,2 Cheddar Cheese from a Local Farmer,7.63
+438,Bananas,Canned Goods,Canned Vegetables,10 Bananas from a Local Farmer,8.79
+439,Broccoli,Meat,Poultry,3 Broccoli from a Local Farmer,9.82
+440,Spinach,Beverages,Juice,7 Spinach from a Local Farmer,7.99
+441,Chicken Breast,Canned Goods,Canned Vegetables,1 Chicken Breast from a Local Farmer,11.43
+442,Broccoli,Meat,Beef,4 Broccoli from a Local Farmer,14.74
+443,Spinach,Dairy,Yogurt,8 Spinach from a Local Farmer,11.46
+444,Tomatoes,Bakery,Cakes,2 Tomatoes from a Local Farmer,13.39
+445,Carrots,Snacks,Candy,7 Carrots from a Local Farmer,6.87
+446,Granny Smith Apples,Beverages,Water,3 Granny Smith Apples from a Local Farmer,8.43
+447,Whole Milk,Meat,Poultry,10 Whole Milk from a Local Farmer,17.96
+448,Ice Cream,Frozen,Frozen Vegetables,7 Ice Cream from a Local Farmer,16.14
+449,Lettuce,Frozen,Frozen Vegetables,5 Lettuce from a Local Farmer,12.91
+450,Orange Juice,Bakery,Pastries,9 Orange Juice from a Local Farmer,7.64
+451,Cucumbers,Produce,Vegetable,8 Cucumbers from a Local Farmer,8.68
+452,Potato Chips,Beverages,Soda,10 Potato Chips from a Local Farmer,3.16
+453,Granny Smith Apples,Bakery,Bread,6 Granny Smith Apples from a Local Farmer,1.79
+454,Ice Cream,Meat,Lamb,10 Ice Cream from a Local Farmer,2.02
+455,Lettuce,Canned Goods,Canned Fruits,7 Lettuce from a Local Farmer,4.7
+456,Carrots,Produce,Vegetable,2 Carrots from a Local Farmer,5.48
+457,Cheddar Cheese,Bakery,Pastries,10 Cheddar Cheese from a Local Farmer,13.93
+458,Cucumbers,Beverages,Juice,8 Cucumbers from a Local Farmer,4.39
+459,Bananas,Bakery,Bread,7 Bananas from a Local Farmer,9.87
+460,Tomatoes,Meat,Poultry,1 Tomatoes from a Local Farmer,16.56
+461,Granny Smith Apples,Meat,Beef,3 Granny Smith Apples from a Local Farmer,10.55
+462,Ice Cream,Frozen,Ice Cream,9 Ice Cream from a Local Farmer,11.05
+463,Red Delicious Apples,Beverages,Juice,8 Red Delicious Apples from a Local Farmer,8.73
+464,Whole Milk,Frozen,Frozen Meals,6 Whole Milk from a Local Farmer,2.87
+465,Eggs,Meat,Poultry,9 Eggs from a Local Farmer,5.72
+466,Carrots,Snacks,Chips,2 Carrots from a Local Farmer,1.24
+467,Whole Milk,Dairy,Milk,5 Whole Milk from a Local Farmer,2.94
+468,Ground Beef,Produce,Fruit,2 Ground Beef from a Local Farmer,18.78
+469,Ice Cream,Dairy,Milk,5 Ice Cream from a Local Farmer,11.82
+470,Onions,Canned Goods,Canned Meat,10 Onions from a Local Farmer,7.54
+471,Cucumbers,Dairy,Cheese,9 Cucumbers from a Local Farmer,15.86
+472,Bread,Dairy,Yogurt,2 Bread from a Local Farmer,10.72
+473,Ground Beef,Produce,Vegetable,3 Ground Beef from a Local Farmer,18.13
+474,Cucumbers,Meat,Lamb,1 Cucumbers from a Local Farmer,1.88
+475,Skim Milk,Produce,Fruit,10 Skim Milk from a Local Farmer,12.1
+476,Lettuce,Dairy,Milk,6 Lettuce from a Local Farmer,9.29
+477,Skim Milk,Snacks,Chips,10 Skim Milk from a Local Farmer,7.64
+478,Cheddar Cheese,Meat,Lamb,6 Cheddar Cheese from a Local Farmer,16.27
+479,Skim Milk,Dairy,Yogurt,1 Skim Milk from a Local Farmer,19.65
+480,Tomatoes,Frozen,Frozen Meals,7 Tomatoes from a Local Farmer,2.44
+481,Bread,Dairy,Yogurt,6 Bread from a Local Farmer,13.29
+482,Tomatoes,Snacks,Cookies,9 Tomatoes from a Local Farmer,19.8
+483,Orange Juice,Canned Goods,Canned Vegetables,10 Orange Juice from a Local Farmer,14.81
+484,Bread,Beverages,Juice,9 Bread from a Local Farmer,10.84
+485,Tomatoes,Dairy,Yogurt,10 Tomatoes from a Local Farmer,8.24
+486,Cucumbers,Snacks,Candy,3 Cucumbers from a Local Farmer,10.84
+487,Whole Milk,Frozen,Frozen Vegetables,9 Whole Milk from a Local Farmer,15.85
+488,Bananas,Beverages,Soda,8 Bananas from a Local Farmer,15.45
+489,Bananas,Snacks,Cookies,2 Bananas from a Local Farmer,16.28
+490,Chicken Breast,Frozen,Frozen Meals,8 Chicken Breast from a Local Farmer,7.65
+491,Ice Cream,Bakery,Pastries,9 Ice Cream from a Local Farmer,12.7
+492,Broccoli,Meat,Lamb,8 Broccoli from a Local Farmer,16.76
+493,Chicken Breast,Dairy,Yogurt,4 Chicken Breast from a Local Farmer,12.11
+494,Orange Juice,Dairy,Milk,4 Orange Juice from a Local Farmer,9.87
+495,Orange Juice,Bakery,Bread,2 Orange Juice from a Local Farmer,10.35
+496,Lettuce,Snacks,Candy,1 Lettuce from a Local Farmer,12.66
+497,Bread,Beverages,Soda,10 Bread from a Local Farmer,6.04
+498,Broccoli,Meat,Poultry,7 Broccoli from a Local Farmer,8.89
+499,Bread,Meat,Beef,10 Bread from a Local Farmer,5.91
+500,Onions,Snacks,Chips,2 Onions from a Local Farmer,19.37
+501,Red Delicious Apples,Canned Goods,Canned Meat,2 Red Delicious Apples from a Local Farmer,5.9
+502,Bananas,Frozen,Ice Cream,7 Bananas from a Local Farmer,9.06
+503,Onions,Bakery,Pastries,7 Onions from a Local Farmer,17.92
+504,Cucumbers,Canned Goods,Canned Meat,3 Cucumbers from a Local Farmer,10.79
+505,Ground Beef,Frozen,Frozen Meals,10 Ground Beef from a Local Farmer,4.2
+506,Cucumbers,Dairy,Yogurt,2 Cucumbers from a Local Farmer,17.01
+507,Bananas,Meat,Beef,5 Bananas from a Local Farmer,8.99
+508,Lettuce,Dairy,Cheese,7 Lettuce from a Local Farmer,9.46
+509,Cucumbers,Frozen,Frozen Meals,9 Cucumbers from a Local Farmer,7.2
+510,Carrots,Beverages,Soda,5 Carrots from a Local Farmer,10.83
+511,Carrots,Snacks,Chips,5 Carrots from a Local Farmer,5.32
+512,Granny Smith Apples,Snacks,Cookies,7 Granny Smith Apples from a Local Farmer,19.02
+513,Whole Milk,Produce,Fruit,6 Whole Milk from a Local Farmer,9.16
+514,Granny Smith Apples,Meat,Beef,8 Granny Smith Apples from a Local Farmer,19.08
+515,Red Delicious Apples,Beverages,Soda,3 Red Delicious Apples from a Local Farmer,13.32
+516,Granny Smith Apples,Bakery,Pastries,3 Granny Smith Apples from a Local Farmer,2.85
+517,Carrots,Meat,Lamb,10 Carrots from a Local Farmer,3.4
+518,Potato Chips,Dairy,Yogurt,3 Potato Chips from a Local Farmer,6.31
+519,Chicken Breast,Canned Goods,Canned Vegetables,3 Chicken Breast from a Local Farmer,9.86
+520,Granny Smith Apples,Dairy,Milk,1 Granny Smith Apples from a Local Farmer,16.56
+521,Whole Milk,Snacks,Cookies,6 Whole Milk from a Local Farmer,1.64
+522,Ice Cream,Snacks,Cookies,8 Ice Cream from a Local Farmer,15.57
+523,Ground Beef,Canned Goods,Canned Vegetables,4 Ground Beef from a Local Farmer,8.58
+524,Chicken Breast,Frozen,Frozen Vegetables,5 Chicken Breast from a Local Farmer,17.08
+525,Bananas,Bakery,Bread,6 Bananas from a Local Farmer,4.72
+526,Broccoli,Produce,Vegetable,3 Broccoli from a Local Farmer,5.05
+527,Cheddar Cheese,Produce,Vegetable,7 Cheddar Cheese from a Local Farmer,5.01
+528,Ice Cream,Meat,Poultry,1 Ice Cream from a Local Farmer,15.72
+529,Lettuce,Snacks,Chips,2 Lettuce from a Local Farmer,4.02
+530,Bread,Produce,Fruit,4 Bread from a Local Farmer,16.08
+531,Granny Smith Apples,Meat,Poultry,8 Granny Smith Apples from a Local Farmer,16.78
+532,Bananas,Meat,Poultry,10 Bananas from a Local Farmer,11.41
+533,Lettuce,Beverages,Soda,6 Lettuce from a Local Farmer,6.52
+534,Granny Smith Apples,Beverages,Soda,8 Granny Smith Apples from a Local Farmer,9.07
+535,Ground Beef,Bakery,Pastries,4 Ground Beef from a Local Farmer,8.27
+536,Tomatoes,Dairy,Milk,10 Tomatoes from a Local Farmer,11.34
+537,Chicken Breast,Canned Goods,Canned Meat,2 Chicken Breast from a Local Farmer,13.32
+538,Carrots,Produce,Fruit,3 Carrots from a Local Farmer,14.49
+539,Granny Smith Apples,Frozen,Frozen Meals,5 Granny Smith Apples from a Local Farmer,12.92
+540,Skim Milk,Snacks,Chips,8 Skim Milk from a Local Farmer,4.45
+541,Skim Milk,Frozen,Ice Cream,3 Skim Milk from a Local Farmer,17.79
+542,Potato Chips,Canned Goods,Canned Meat,2 Potato Chips from a Local Farmer,16.03
+543,Cucumbers,Produce,Fruit,10 Cucumbers from a Local Farmer,16.13
+544,Eggs,Produce,Fruit,1 Eggs from a Local Farmer,16.34
+545,Spinach,Meat,Pork,10 Spinach from a Local Farmer,16.8
+546,Cheddar Cheese,Beverages,Water,4 Cheddar Cheese from a Local Farmer,7.07
+547,Ice Cream,Beverages,Water,10 Ice Cream from a Local Farmer,2.95
+548,Cucumbers,Canned Goods,Canned Meat,1 Cucumbers from a Local Farmer,14.71
+549,Tomatoes,Snacks,Cookies,2 Tomatoes from a Local Farmer,10.7
+550,Ice Cream,Frozen,Ice Cream,2 Ice Cream from a Local Farmer,19.36
+551,Skim Milk,Produce,Fruit,10 Skim Milk from a Local Farmer,1.73
+552,Broccoli,Dairy,Cheese,7 Broccoli from a Local Farmer,9.95
+553,Chicken Breast,Bakery,Bread,5 Chicken Breast from a Local Farmer,15.23
+554,Granny Smith Apples,Meat,Poultry,2 Granny Smith Apples from a Local Farmer,16.01
+555,Onions,Beverages,Juice,6 Onions from a Local Farmer,8.43
+556,Skim Milk,Canned Goods,Canned Fruits,8 Skim Milk from a Local Farmer,5.81
+557,Spinach,Beverages,Soda,3 Spinach from a Local Farmer,9.29
+558,Chicken Breast,Meat,Lamb,7 Chicken Breast from a Local Farmer,12.89
+559,Spinach,Dairy,Cheese,9 Spinach from a Local Farmer,19.77
+560,Tomatoes,Meat,Pork,9 Tomatoes from a Local Farmer,5.79
+561,Skim Milk,Produce,Fruit,1 Skim Milk from a Local Farmer,2.93
+562,Orange Juice,Canned Goods,Canned Fruits,1 Orange Juice from a Local Farmer,13.87
+563,Ground Beef,Beverages,Soda,5 Ground Beef from a Local Farmer,9.22
+564,Eggs,Dairy,Cheese,7 Eggs from a Local Farmer,1.88
+565,Cucumbers,Frozen,Frozen Meals,9 Cucumbers from a Local Farmer,11.34
+566,Cheddar Cheese,Canned Goods,Canned Meat,10 Cheddar Cheese from a Local Farmer,15.92
+567,Cheddar Cheese,Snacks,Candy,2 Cheddar Cheese from a Local Farmer,1.16
+568,Orange Juice,Bakery,Pastries,8 Orange Juice from a Local Farmer,19.01
+569,Tomatoes,Frozen,Frozen Meals,1 Tomatoes from a Local Farmer,12.24
+570,Spinach,Dairy,Cheese,4 Spinach from a Local Farmer,13.58
+571,Spinach,Beverages,Water,10 Spinach from a Local Farmer,6.84
+572,Whole Milk,Beverages,Juice,5 Whole Milk from a Local Farmer,17.7
+573,Skim Milk,Canned Goods,Canned Fruits,3 Skim Milk from a Local Farmer,11.25
+574,Orange Juice,Meat,Poultry,2 Orange Juice from a Local Farmer,14.94
+575,Bananas,Produce,Fruit,6 Bananas from a Local Farmer,14.8
+576,Cucumbers,Dairy,Milk,1 Cucumbers from a Local Farmer,11.51
+577,Orange Juice,Produce,Fruit,5 Orange Juice from a Local Farmer,13.22
+578,Orange Juice,Bakery,Cakes,5 Orange Juice from a Local Farmer,6.2
+579,Tomatoes,Dairy,Milk,8 Tomatoes from a Local Farmer,7.89
+580,Bananas,Frozen,Frozen Vegetables,10 Bananas from a Local Farmer,8.57
+581,Spinach,Dairy,Milk,6 Spinach from a Local Farmer,13.08
+582,Orange Juice,Beverages,Water,10 Orange Juice from a Local Farmer,4.13
+583,Onions,Canned Goods,Canned Vegetables,1 Onions from a Local Farmer,4.79
+584,Spinach,Bakery,Pastries,3 Spinach from a Local Farmer,18.51
+585,Broccoli,Produce,Fruit,5 Broccoli from a Local Farmer,13.05
+586,Tomatoes,Frozen,Ice Cream,8 Tomatoes from a Local Farmer,1.19
+587,Red Delicious Apples,Snacks,Cookies,2 Red Delicious Apples from a Local Farmer,4.71
+588,Chicken Breast,Meat,Beef,9 Chicken Breast from a Local Farmer,11.82
+589,Bread,Snacks,Chips,1 Bread from a Local Farmer,3.27
+590,Orange Juice,Beverages,Soda,1 Orange Juice from a Local Farmer,18.69
+591,Cucumbers,Dairy,Yogurt,4 Cucumbers from a Local Farmer,7.15
+592,Ice Cream,Meat,Beef,10 Ice Cream from a Local Farmer,2.49
+593,Chicken Breast,Produce,Fruit,9 Chicken Breast from a Local Farmer,8.98
+594,Onions,Frozen,Frozen Vegetables,4 Onions from a Local Farmer,17.86
+595,Bananas,Snacks,Candy,7 Bananas from a Local Farmer,10.6
+596,Ice Cream,Meat,Poultry,3 Ice Cream from a Local Farmer,9.45
+597,Ground Beef,Bakery,Cakes,1 Ground Beef from a Local Farmer,16.05
+598,Eggs,Snacks,Cookies,9 Eggs from a Local Farmer,16.11
+599,Lettuce,Produce,Vegetable,4 Lettuce from a Local Farmer,16.76
+600,Bread,Bakery,Pastries,5 Bread from a Local Farmer,9.34
+601,Broccoli,Snacks,Cookies,7 Broccoli from a Local Farmer,3.31
+602,Potato Chips,Canned Goods,Canned Meat,4 Potato Chips from a Local Farmer,15.02
+603,Carrots,Snacks,Candy,7 Carrots from a Local Farmer,5.27
+604,Red Delicious Apples,Snacks,Chips,4 Red Delicious Apples from a Local Farmer,11.95
+605,Tomatoes,Beverages,Juice,1 Tomatoes from a Local Farmer,19.36
+606,Orange Juice,Bakery,Bread,5 Orange Juice from a Local Farmer,9.47
+607,Carrots,Frozen,Frozen Vegetables,6 Carrots from a Local Farmer,5.22
+608,Spinach,Snacks,Chips,3 Spinach from a Local Farmer,13.08
+609,Cheddar Cheese,Meat,Pork,5 Cheddar Cheese from a Local Farmer,19.07
+610,Potato Chips,Beverages,Soda,9 Potato Chips from a Local Farmer,16.05
+611,Potato Chips,Dairy,Milk,3 Potato Chips from a Local Farmer,1.16
+612,Chicken Breast,Dairy,Cheese,10 Chicken Breast from a Local Farmer,9.59
+613,Spinach,Dairy,Yogurt,8 Spinach from a Local Farmer,4.72
+614,Broccoli,Frozen,Frozen Vegetables,1 Broccoli from a Local Farmer,12.63
+615,Whole Milk,Produce,Vegetable,8 Whole Milk from a Local Farmer,5.72
+616,Bread,Canned Goods,Canned Meat,10 Bread from a Local Farmer,19.06
+617,Ground Beef,Snacks,Candy,7 Ground Beef from a Local Farmer,8.59
+618,Lettuce,Beverages,Soda,1 Lettuce from a Local Farmer,18.71
+619,Bananas,Beverages,Water,4 Bananas from a Local Farmer,13.03
+620,Cheddar Cheese,Dairy,Cheese,10 Cheddar Cheese from a Local Farmer,18.05
+621,Eggs,Meat,Poultry,1 Eggs from a Local Farmer,5.08
+622,Broccoli,Meat,Lamb,1 Broccoli from a Local Farmer,3.73
+623,Potato Chips,Bakery,Cakes,5 Potato Chips from a Local Farmer,15.92
+624,Potato Chips,Frozen,Frozen Vegetables,5 Potato Chips from a Local Farmer,1.67
+625,Ice Cream,Meat,Beef,6 Ice Cream from a Local Farmer,10.12
+626,Red Delicious Apples,Produce,Vegetable,7 Red Delicious Apples from a Local Farmer,2.58
+627,Bread,Canned Goods,Canned Fruits,4 Bread from a Local Farmer,2.2
+628,Spinach,Frozen,Ice Cream,4 Spinach from a Local Farmer,10.83
+629,Bananas,Dairy,Cheese,6 Bananas from a Local Farmer,1.84
+630,Ice Cream,Bakery,Pastries,6 Ice Cream from a Local Farmer,14.73
+631,Onions,Produce,Fruit,5 Onions from a Local Farmer,3.75
+632,Orange Juice,Meat,Lamb,8 Orange Juice from a Local Farmer,15.89
+633,Tomatoes,Meat,Pork,6 Tomatoes from a Local Farmer,14.95
+634,Whole Milk,Beverages,Soda,8 Whole Milk from a Local Farmer,17.33
+635,Carrots,Beverages,Juice,5 Carrots from a Local Farmer,6.41
+636,Tomatoes,Beverages,Soda,5 Tomatoes from a Local Farmer,18.21
+637,Orange Juice,Canned Goods,Canned Meat,10 Orange Juice from a Local Farmer,11.03
+638,Bananas,Snacks,Chips,8 Bananas from a Local Farmer,16.18
+639,Red Delicious Apples,Canned Goods,Canned Meat,7 Red Delicious Apples from a Local Farmer,7.8
+640,Red Delicious Apples,Frozen,Frozen Vegetables,9 Red Delicious Apples from a Local Farmer,5.55
+641,Carrots,Beverages,Soda,2 Carrots from a Local Farmer,18.3
+642,Orange Juice,Canned Goods,Canned Meat,10 Orange Juice from a Local Farmer,14.86
+643,Orange Juice,Snacks,Chips,6 Orange Juice from a Local Farmer,13.42
+644,Lettuce,Meat,Poultry,6 Lettuce from a Local Farmer,16.83
+645,Ground Beef,Meat,Poultry,9 Ground Beef from a Local Farmer,9.84
+646,Potato Chips,Meat,Lamb,1 Potato Chips from a Local Farmer,6.27
+647,Bread,Snacks,Cookies,6 Bread from a Local Farmer,7.33
+648,Granny Smith Apples,Bakery,Pastries,5 Granny Smith Apples from a Local Farmer,16.16
+649,Cheddar Cheese,Meat,Pork,7 Cheddar Cheese from a Local Farmer,4.66
+650,Bananas,Produce,Fruit,7 Bananas from a Local Farmer,3.72
+651,Whole Milk,Produce,Vegetable,5 Whole Milk from a Local Farmer,11.91
+652,Carrots,Produce,Fruit,9 Carrots from a Local Farmer,1.88
+653,Whole Milk,Snacks,Cookies,6 Whole Milk from a Local Farmer,15.45
+654,Bread,Snacks,Cookies,4 Bread from a Local Farmer,4.95
+655,Ground Beef,Canned Goods,Canned Fruits,8 Ground Beef from a Local Farmer,6.19
+656,Skim Milk,Dairy,Yogurt,8 Skim Milk from a Local Farmer,11.51
+657,Cucumbers,Dairy,Yogurt,1 Cucumbers from a Local Farmer,10.34
+658,Lettuce,Produce,Vegetable,6 Lettuce from a Local Farmer,12.63
+659,Spinach,Beverages,Juice,3 Spinach from a Local Farmer,19.75
+660,Cheddar Cheese,Produce,Vegetable,5 Cheddar Cheese from a Local Farmer,19.79
+661,Bread,Beverages,Soda,9 Bread from a Local Farmer,17.75
+662,Eggs,Snacks,Candy,4 Eggs from a Local Farmer,5.52
+663,Cucumbers,Dairy,Yogurt,5 Cucumbers from a Local Farmer,14.99
+664,Cheddar Cheese,Bakery,Pastries,7 Cheddar Cheese from a Local Farmer,13.91
+665,Tomatoes,Canned Goods,Canned Vegetables,4 Tomatoes from a Local Farmer,5.8
+666,Tomatoes,Bakery,Cakes,3 Tomatoes from a Local Farmer,6.86
+667,Bananas,Beverages,Soda,8 Bananas from a Local Farmer,1.36
+668,Ground Beef,Produce,Fruit,5 Ground Beef from a Local Farmer,8.09
+669,Cheddar Cheese,Canned Goods,Canned Meat,10 Cheddar Cheese from a Local Farmer,8.06
+670,Bread,Bakery,Pastries,3 Bread from a Local Farmer,19.55
+671,Skim Milk,Snacks,Chips,2 Skim Milk from a Local Farmer,6.9
+672,Lettuce,Bakery,Cakes,1 Lettuce from a Local Farmer,8.56
+673,Carrots,Dairy,Milk,6 Carrots from a Local Farmer,3.32
+674,Red Delicious Apples,Produce,Vegetable,1 Red Delicious Apples from a Local Farmer,18.45
+675,Potato Chips,Snacks,Cookies,1 Potato Chips from a Local Farmer,12.85
+676,Chicken Breast,Bakery,Cakes,1 Chicken Breast from a Local Farmer,4.99
+677,Onions,Snacks,Chips,7 Onions from a Local Farmer,7.6
+678,Granny Smith Apples,Bakery,Bread,1 Granny Smith Apples from a Local Farmer,7.83
+679,Onions,Bakery,Pastries,10 Onions from a Local Farmer,13.49
+680,Potato Chips,Snacks,Chips,8 Potato Chips from a Local Farmer,9.87
+681,Red Delicious Apples,Produce,Fruit,4 Red Delicious Apples from a Local Farmer,11.19
+682,Carrots,Canned Goods,Canned Meat,1 Carrots from a Local Farmer,1.75
+683,Spinach,Frozen,Ice Cream,3 Spinach from a Local Farmer,18.13
+684,Ice Cream,Dairy,Cheese,10 Ice Cream from a Local Farmer,11.91
+685,Cheddar Cheese,Meat,Beef,10 Cheddar Cheese from a Local Farmer,14.53
+686,Ground Beef,Canned Goods,Canned Vegetables,7 Ground Beef from a Local Farmer,18.06
+687,Tomatoes,Canned Goods,Canned Vegetables,1 Tomatoes from a Local Farmer,16.08
+688,Whole Milk,Beverages,Water,7 Whole Milk from a Local Farmer,9.38
+689,Tomatoes,Dairy,Yogurt,3 Tomatoes from a Local Farmer,13.61
+690,Eggs,Frozen,Frozen Vegetables,9 Eggs from a Local Farmer,7.89
+691,Eggs,Meat,Lamb,8 Eggs from a Local Farmer,13.87
+692,Lettuce,Canned Goods,Canned Meat,8 Lettuce from a Local Farmer,13.46
+693,Lettuce,Produce,Fruit,9 Lettuce from a Local Farmer,14.04
+694,Cheddar Cheese,Bakery,Bread,6 Cheddar Cheese from a Local Farmer,4.56
+695,Lettuce,Produce,Vegetable,9 Lettuce from a Local Farmer,6.98
+696,Onions,Beverages,Water,6 Onions from a Local Farmer,1.26
+697,Chicken Breast,Canned Goods,Canned Meat,6 Chicken Breast from a Local Farmer,10.94
+698,Carrots,Frozen,Ice Cream,1 Carrots from a Local Farmer,7.18
+699,Eggs,Frozen,Ice Cream,5 Eggs from a Local Farmer,13.85
+700,Broccoli,Meat,Pork,5 Broccoli from a Local Farmer,5.23
+701,Skim Milk,Beverages,Water,1 Skim Milk from a Local Farmer,16.31
+702,Lettuce,Produce,Fruit,4 Lettuce from a Local Farmer,12.93
+703,Ground Beef,Snacks,Candy,5 Ground Beef from a Local Farmer,2.64
+704,Tomatoes,Frozen,Frozen Meals,8 Tomatoes from a Local Farmer,11.73
+705,Whole Milk,Produce,Vegetable,10 Whole Milk from a Local Farmer,9.47
+706,Eggs,Frozen,Frozen Meals,8 Eggs from a Local Farmer,2.64
+707,Spinach,Meat,Poultry,8 Spinach from a Local Farmer,17.71
+708,Potato Chips,Frozen,Frozen Meals,10 Potato Chips from a Local Farmer,11.83
+709,Skim Milk,Produce,Vegetable,10 Skim Milk from a Local Farmer,8.49
+710,Red Delicious Apples,Meat,Poultry,2 Red Delicious Apples from a Local Farmer,18.88
+711,Tomatoes,Canned Goods,Canned Vegetables,10 Tomatoes from a Local Farmer,5.58
+712,Lettuce,Dairy,Yogurt,5 Lettuce from a Local Farmer,17.96
+713,Whole Milk,Bakery,Pastries,2 Whole Milk from a Local Farmer,18.37
+714,Spinach,Meat,Poultry,3 Spinach from a Local Farmer,16.88
+715,Whole Milk,Bakery,Cakes,9 Whole Milk from a Local Farmer,15.7
+716,Cucumbers,Snacks,Cookies,10 Cucumbers from a Local Farmer,1.25
+717,Ice Cream,Dairy,Yogurt,7 Ice Cream from a Local Farmer,12.79
+718,Bread,Bakery,Bread,7 Bread from a Local Farmer,19.32
+719,Potato Chips,Snacks,Chips,7 Potato Chips from a Local Farmer,2.84
+720,Lettuce,Dairy,Milk,8 Lettuce from a Local Farmer,18.38
+721,Potato Chips,Snacks,Cookies,9 Potato Chips from a Local Farmer,5.32
+722,Onions,Canned Goods,Canned Fruits,10 Onions from a Local Farmer,15.03
+723,Orange Juice,Produce,Vegetable,8 Orange Juice from a Local Farmer,11.02
+724,Granny Smith Apples,Bakery,Bread,10 Granny Smith Apples from a Local Farmer,11.08
+725,Broccoli,Meat,Poultry,6 Broccoli from a Local Farmer,4.38
+726,Broccoli,Frozen,Frozen Vegetables,5 Broccoli from a Local Farmer,7.66
+727,Granny Smith Apples,Frozen,Ice Cream,5 Granny Smith Apples from a Local Farmer,13.76
+728,Bread,Frozen,Frozen Meals,1 Bread from a Local Farmer,6.49
+729,Onions,Produce,Fruit,4 Onions from a Local Farmer,17.1
+730,Spinach,Bakery,Pastries,4 Spinach from a Local Farmer,14.4
+731,Cheddar Cheese,Dairy,Milk,2 Cheddar Cheese from a Local Farmer,19.88
+732,Onions,Bakery,Pastries,2 Onions from a Local Farmer,16.81
+733,Orange Juice,Frozen,Ice Cream,4 Orange Juice from a Local Farmer,13.42
+734,Skim Milk,Frozen,Frozen Meals,1 Skim Milk from a Local Farmer,11.38
+735,Bananas,Dairy,Milk,5 Bananas from a Local Farmer,12.33
+736,Bananas,Snacks,Candy,3 Bananas from a Local Farmer,15.32
+737,Carrots,Frozen,Ice Cream,5 Carrots from a Local Farmer,11.15
+738,Whole Milk,Meat,Pork,6 Whole Milk from a Local Farmer,15.33
+739,Tomatoes,Canned Goods,Canned Fruits,9 Tomatoes from a Local Farmer,12.09
+740,Tomatoes,Frozen,Ice Cream,7 Tomatoes from a Local Farmer,16.91
+741,Red Delicious Apples,Meat,Poultry,4 Red Delicious Apples from a Local Farmer,6.05
+742,Ice Cream,Snacks,Candy,1 Ice Cream from a Local Farmer,3.46
+743,Bread,Bakery,Bread,3 Bread from a Local Farmer,16.38
+744,Cucumbers,Beverages,Juice,1 Cucumbers from a Local Farmer,1.27
+745,Bread,Dairy,Milk,1 Bread from a Local Farmer,6.12
+746,Bread,Meat,Beef,10 Bread from a Local Farmer,19.95
+747,Ground Beef,Meat,Poultry,8 Ground Beef from a Local Farmer,4.84
+748,Chicken Breast,Produce,Fruit,8 Chicken Breast from a Local Farmer,12.08
+749,Bananas,Frozen,Frozen Vegetables,8 Bananas from a Local Farmer,14.08
+750,Red Delicious Apples,Frozen,Frozen Vegetables,6 Red Delicious Apples from a Local Farmer,18.43
+751,Granny Smith Apples,Canned Goods,Canned Vegetables,2 Granny Smith Apples from a Local Farmer,10.74
+752,Onions,Dairy,Cheese,10 Onions from a Local Farmer,16.1
+753,Bananas,Meat,Beef,5 Bananas from a Local Farmer,18.98
+754,Chicken Breast,Bakery,Pastries,10 Chicken Breast from a Local Farmer,18.3
+755,Potato Chips,Dairy,Yogurt,4 Potato Chips from a Local Farmer,11.03
+756,Broccoli,Meat,Lamb,1 Broccoli from a Local Farmer,16.72
+757,Spinach,Dairy,Cheese,3 Spinach from a Local Farmer,18.59
+758,Chicken Breast,Canned Goods,Canned Vegetables,5 Chicken Breast from a Local Farmer,17.77
+759,Potato Chips,Frozen,Ice Cream,1 Potato Chips from a Local Farmer,2.54
+760,Broccoli,Bakery,Pastries,9 Broccoli from a Local Farmer,6.44
+761,Cucumbers,Meat,Lamb,3 Cucumbers from a Local Farmer,15.15
+762,Ground Beef,Beverages,Soda,4 Ground Beef from a Local Farmer,15.39
+763,Onions,Bakery,Cakes,8 Onions from a Local Farmer,5.68
+764,Bread,Canned Goods,Canned Meat,8 Bread from a Local Farmer,19.08
+765,Spinach,Frozen,Ice Cream,10 Spinach from a Local Farmer,12.85
+766,Onions,Snacks,Chips,10 Onions from a Local Farmer,12.25
+767,Bread,Meat,Beef,5 Bread from a Local Farmer,9.01
+768,Lettuce,Meat,Pork,4 Lettuce from a Local Farmer,6.2
+769,Lettuce,Produce,Fruit,4 Lettuce from a Local Farmer,17.97
+770,Cucumbers,Dairy,Yogurt,9 Cucumbers from a Local Farmer,15.16
+771,Broccoli,Dairy,Milk,4 Broccoli from a Local Farmer,12.51
+772,Lettuce,Produce,Fruit,9 Lettuce from a Local Farmer,2.84
+773,Ground Beef,Produce,Fruit,10 Ground Beef from a Local Farmer,14.81
+774,Bread,Frozen,Frozen Meals,10 Bread from a Local Farmer,7.04
+775,Red Delicious Apples,Snacks,Chips,1 Red Delicious Apples from a Local Farmer,4.35
+776,Lettuce,Beverages,Water,1 Lettuce from a Local Farmer,4.94
+777,Whole Milk,Beverages,Water,10 Whole Milk from a Local Farmer,14.5
+778,Spinach,Bakery,Cakes,4 Spinach from a Local Farmer,16.81
+779,Tomatoes,Frozen,Ice Cream,1 Tomatoes from a Local Farmer,8.88
+780,Lettuce,Frozen,Frozen Meals,2 Lettuce from a Local Farmer,17.83
+781,Whole Milk,Canned Goods,Canned Meat,10 Whole Milk from a Local Farmer,17.13
+782,Skim Milk,Bakery,Pastries,3 Skim Milk from a Local Farmer,17.54
+783,Potato Chips,Beverages,Soda,2 Potato Chips from a Local Farmer,9.11
+784,Eggs,Dairy,Yogurt,9 Eggs from a Local Farmer,14.11
+785,Ground Beef,Snacks,Candy,6 Ground Beef from a Local Farmer,7.24
+786,Spinach,Canned Goods,Canned Vegetables,3 Spinach from a Local Farmer,11.35
+787,Broccoli,Produce,Vegetable,5 Broccoli from a Local Farmer,7.97
+788,Cheddar Cheese,Produce,Vegetable,5 Cheddar Cheese from a Local Farmer,8.87
+789,Broccoli,Bakery,Cakes,8 Broccoli from a Local Farmer,19.2
+790,Cheddar Cheese,Canned Goods,Canned Vegetables,3 Cheddar Cheese from a Local Farmer,10.46
+791,Potato Chips,Bakery,Bread,4 Potato Chips from a Local Farmer,12.32
+792,Ground Beef,Frozen,Frozen Meals,1 Ground Beef from a Local Farmer,5.58
+793,Chicken Breast,Canned Goods,Canned Fruits,7 Chicken Breast from a Local Farmer,7.64
+794,Spinach,Beverages,Soda,7 Spinach from a Local Farmer,11.68
+795,Cucumbers,Dairy,Milk,6 Cucumbers from a Local Farmer,19.53
+796,Bread,Canned Goods,Canned Vegetables,4 Bread from a Local Farmer,3.45
+797,Red Delicious Apples,Dairy,Yogurt,1 Red Delicious Apples from a Local Farmer,7.27
+798,Bread,Produce,Fruit,2 Bread from a Local Farmer,8.08
+799,Potato Chips,Produce,Fruit,1 Potato Chips from a Local Farmer,6.19
+800,Tomatoes,Beverages,Soda,5 Tomatoes from a Local Farmer,4.33
+801,Ground Beef,Bakery,Cakes,3 Ground Beef from a Local Farmer,9.34
+802,Skim Milk,Beverages,Water,9 Skim Milk from a Local Farmer,19.36
+803,Red Delicious Apples,Bakery,Cakes,2 Red Delicious Apples from a Local Farmer,11.75
+804,Granny Smith Apples,Produce,Fruit,1 Granny Smith Apples from a Local Farmer,7.44
+805,Bread,Meat,Pork,3 Bread from a Local Farmer,9.64
+806,Broccoli,Beverages,Soda,2 Broccoli from a Local Farmer,18.43
+807,Orange Juice,Produce,Fruit,6 Orange Juice from a Local Farmer,18.62
+808,Tomatoes,Canned Goods,Canned Fruits,2 Tomatoes from a Local Farmer,6.33
+809,Bread,Dairy,Yogurt,8 Bread from a Local Farmer,4.57
+810,Cucumbers,Dairy,Cheese,10 Cucumbers from a Local Farmer,4.5
+811,Granny Smith Apples,Meat,Poultry,8 Granny Smith Apples from a Local Farmer,17.62
+812,Cheddar Cheese,Produce,Fruit,7 Cheddar Cheese from a Local Farmer,17.58
+813,Cucumbers,Beverages,Water,2 Cucumbers from a Local Farmer,4.74
+814,Granny Smith Apples,Produce,Fruit,8 Granny Smith Apples from a Local Farmer,13.53
+815,Tomatoes,Snacks,Chips,3 Tomatoes from a Local Farmer,18.9
+816,Onions,Snacks,Candy,8 Onions from a Local Farmer,7.0
+817,Tomatoes,Meat,Lamb,2 Tomatoes from a Local Farmer,3.75
+818,Ground Beef,Canned Goods,Canned Vegetables,9 Ground Beef from a Local Farmer,5.09
+819,Potato Chips,Canned Goods,Canned Fruits,2 Potato Chips from a Local Farmer,18.84
+820,Chicken Breast,Bakery,Pastries,2 Chicken Breast from a Local Farmer,7.29
+821,Ground Beef,Dairy,Milk,7 Ground Beef from a Local Farmer,17.12
+822,Cucumbers,Snacks,Chips,1 Cucumbers from a Local Farmer,14.57
+823,Spinach,Produce,Vegetable,5 Spinach from a Local Farmer,12.34
+824,Potato Chips,Produce,Fruit,6 Potato Chips from a Local Farmer,17.54
+825,Cucumbers,Dairy,Yogurt,10 Cucumbers from a Local Farmer,17.99
+826,Skim Milk,Frozen,Ice Cream,5 Skim Milk from a Local Farmer,13.13
+827,Skim Milk,Produce,Vegetable,8 Skim Milk from a Local Farmer,5.95
+828,Whole Milk,Meat,Beef,3 Whole Milk from a Local Farmer,17.24
+829,Spinach,Dairy,Milk,9 Spinach from a Local Farmer,6.83
+830,Whole Milk,Snacks,Candy,6 Whole Milk from a Local Farmer,13.08
+831,Cucumbers,Beverages,Water,6 Cucumbers from a Local Farmer,13.05
+832,Broccoli,Produce,Fruit,6 Broccoli from a Local Farmer,14.56
+833,Orange Juice,Dairy,Yogurt,10 Orange Juice from a Local Farmer,18.95
+834,Whole Milk,Snacks,Cookies,1 Whole Milk from a Local Farmer,1.21
+835,Cheddar Cheese,Canned Goods,Canned Vegetables,8 Cheddar Cheese from a Local Farmer,19.08
+836,Broccoli,Frozen,Ice Cream,3 Broccoli from a Local Farmer,12.52
+837,Whole Milk,Snacks,Candy,5 Whole Milk from a Local Farmer,13.15
+838,Carrots,Canned Goods,Canned Vegetables,9 Carrots from a Local Farmer,4.66
+839,Chicken Breast,Dairy,Milk,9 Chicken Breast from a Local Farmer,5.76
+840,Cucumbers,Frozen,Ice Cream,8 Cucumbers from a Local Farmer,6.59
+841,Eggs,Produce,Fruit,6 Eggs from a Local Farmer,17.78
+842,Cheddar Cheese,Produce,Fruit,10 Cheddar Cheese from a Local Farmer,12.03
+843,Ground Beef,Frozen,Ice Cream,7 Ground Beef from a Local Farmer,14.58
+844,Granny Smith Apples,Beverages,Water,10 Granny Smith Apples from a Local Farmer,16.75
+845,Skim Milk,Produce,Fruit,3 Skim Milk from a Local Farmer,10.61
+846,Broccoli,Snacks,Candy,2 Broccoli from a Local Farmer,9.49
+847,Bread,Produce,Fruit,7 Bread from a Local Farmer,8.18
+848,Bananas,Produce,Vegetable,8 Bananas from a Local Farmer,16.02
+849,Cucumbers,Meat,Poultry,8 Cucumbers from a Local Farmer,10.31
+850,Potato Chips,Meat,Lamb,6 Potato Chips from a Local Farmer,18.48
+851,Lettuce,Meat,Pork,2 Lettuce from a Local Farmer,10.58
+852,Lettuce,Frozen,Frozen Meals,7 Lettuce from a Local Farmer,17.17
+853,Granny Smith Apples,Dairy,Milk,5 Granny Smith Apples from a Local Farmer,11.77
+854,Eggs,Meat,Pork,1 Eggs from a Local Farmer,11.95
+855,Skim Milk,Snacks,Candy,6 Skim Milk from a Local Farmer,12.82
+856,Granny Smith Apples,Canned Goods,Canned Fruits,7 Granny Smith Apples from a Local Farmer,18.32
+857,Onions,Meat,Beef,2 Onions from a Local Farmer,4.3
+858,Ground Beef,Bakery,Bread,9 Ground Beef from a Local Farmer,15.7
+859,Ice Cream,Snacks,Candy,2 Ice Cream from a Local Farmer,8.2
+860,Bread,Canned Goods,Canned Meat,3 Bread from a Local Farmer,5.72
+861,Chicken Breast,Canned Goods,Canned Vegetables,4 Chicken Breast from a Local Farmer,1.26
+862,Granny Smith Apples,Bakery,Cakes,2 Granny Smith Apples from a Local Farmer,4.84
+863,Cheddar Cheese,Frozen,Ice Cream,8 Cheddar Cheese from a Local Farmer,3.14
+864,Lettuce,Frozen,Frozen Meals,4 Lettuce from a Local Farmer,5.06
+865,Red Delicious Apples,Canned Goods,Canned Fruits,1 Red Delicious Apples from a Local Farmer,6.11
+866,Broccoli,Snacks,Candy,1 Broccoli from a Local Farmer,18.61
+867,Carrots,Produce,Fruit,5 Carrots from a Local Farmer,1.5
+868,Spinach,Produce,Vegetable,6 Spinach from a Local Farmer,7.52
+869,Carrots,Beverages,Soda,10 Carrots from a Local Farmer,17.89
+870,Skim Milk,Snacks,Cookies,10 Skim Milk from a Local Farmer,17.11
+871,Skim Milk,Canned Goods,Canned Fruits,6 Skim Milk from a Local Farmer,16.5
+872,Red Delicious Apples,Beverages,Water,6 Red Delicious Apples from a Local Farmer,3.19
+873,Granny Smith Apples,Produce,Fruit,1 Granny Smith Apples from a Local Farmer,3.18
+874,Skim Milk,Canned Goods,Canned Meat,8 Skim Milk from a Local Farmer,3.9
+875,Carrots,Dairy,Yogurt,9 Carrots from a Local Farmer,3.57
+876,Orange Juice,Dairy,Yogurt,10 Orange Juice from a Local Farmer,16.63
+877,Orange Juice,Dairy,Yogurt,4 Orange Juice from a Local Farmer,19.89
+878,Lettuce,Frozen,Frozen Vegetables,7 Lettuce from a Local Farmer,15.08
+879,Red Delicious Apples,Snacks,Candy,8 Red Delicious Apples from a Local Farmer,7.2
+880,Ice Cream,Canned Goods,Canned Vegetables,6 Ice Cream from a Local Farmer,8.88
+881,Carrots,Meat,Poultry,8 Carrots from a Local Farmer,2.3
+882,Tomatoes,Produce,Fruit,7 Tomatoes from a Local Farmer,9.66
+883,Granny Smith Apples,Frozen,Ice Cream,1 Granny Smith Apples from a Local Farmer,10.96
+884,Ground Beef,Snacks,Chips,7 Ground Beef from a Local Farmer,9.51
+885,Ice Cream,Dairy,Milk,4 Ice Cream from a Local Farmer,6.3
+886,Cucumbers,Canned Goods,Canned Fruits,2 Cucumbers from a Local Farmer,2.95
+887,Cucumbers,Snacks,Cookies,5 Cucumbers from a Local Farmer,9.42
+888,Broccoli,Bakery,Cakes,4 Broccoli from a Local Farmer,6.54
+889,Cucumbers,Produce,Fruit,1 Cucumbers from a Local Farmer,18.68
+890,Onions,Bakery,Pastries,9 Onions from a Local Farmer,19.22
+891,Cheddar Cheese,Produce,Fruit,5 Cheddar Cheese from a Local Farmer,16.46
+892,Broccoli,Snacks,Cookies,6 Broccoli from a Local Farmer,7.35
+893,Lettuce,Canned Goods,Canned Meat,8 Lettuce from a Local Farmer,18.6
+894,Red Delicious Apples,Dairy,Cheese,6 Red Delicious Apples from a Local Farmer,12.02
+895,Ground Beef,Dairy,Yogurt,9 Ground Beef from a Local Farmer,12.65
+896,Ground Beef,Produce,Fruit,9 Ground Beef from a Local Farmer,18.59
+897,Eggs,Frozen,Frozen Vegetables,7 Eggs from a Local Farmer,13.87
+898,Eggs,Snacks,Chips,2 Eggs from a Local Farmer,1.42
+899,Granny Smith Apples,Meat,Beef,3 Granny Smith Apples from a Local Farmer,7.98
+900,Eggs,Dairy,Cheese,8 Eggs from a Local Farmer,15.71
+901,Potato Chips,Meat,Beef,7 Potato Chips from a Local Farmer,12.86
+902,Onions,Beverages,Water,10 Onions from a Local Farmer,16.35
+903,Carrots,Frozen,Frozen Vegetables,10 Carrots from a Local Farmer,2.96
+904,Tomatoes,Bakery,Cakes,5 Tomatoes from a Local Farmer,2.16
+905,Ground Beef,Bakery,Pastries,8 Ground Beef from a Local Farmer,12.79
+906,Tomatoes,Bakery,Cakes,8 Tomatoes from a Local Farmer,4.82
+907,Potato Chips,Snacks,Candy,3 Potato Chips from a Local Farmer,3.09
+908,Ground Beef,Canned Goods,Canned Meat,9 Ground Beef from a Local Farmer,8.86
+909,Red Delicious Apples,Dairy,Cheese,8 Red Delicious Apples from a Local Farmer,13.36
+910,Ice Cream,Bakery,Cakes,7 Ice Cream from a Local Farmer,2.3
+911,Red Delicious Apples,Dairy,Yogurt,5 Red Delicious Apples from a Local Farmer,18.25
+912,Granny Smith Apples,Produce,Vegetable,2 Granny Smith Apples from a Local Farmer,9.56
+913,Eggs,Canned Goods,Canned Vegetables,3 Eggs from a Local Farmer,15.49
+914,Ground Beef,Beverages,Soda,8 Ground Beef from a Local Farmer,16.7
+915,Granny Smith Apples,Produce,Vegetable,3 Granny Smith Apples from a Local Farmer,17.66
+916,Cheddar Cheese,Bakery,Pastries,6 Cheddar Cheese from a Local Farmer,17.55
+917,Red Delicious Apples,Produce,Fruit,6 Red Delicious Apples from a Local Farmer,15.63
+918,Lettuce,Snacks,Candy,8 Lettuce from a Local Farmer,15.36
+919,Red Delicious Apples,Snacks,Candy,10 Red Delicious Apples from a Local Farmer,14.49
+920,Carrots,Frozen,Frozen Vegetables,3 Carrots from a Local Farmer,15.4
+921,Cucumbers,Dairy,Milk,4 Cucumbers from a Local Farmer,11.8
+922,Cheddar Cheese,Produce,Vegetable,5 Cheddar Cheese from a Local Farmer,9.22
+923,Spinach,Meat,Poultry,8 Spinach from a Local Farmer,14.41
+924,Cheddar Cheese,Frozen,Ice Cream,5 Cheddar Cheese from a Local Farmer,9.53
+925,Orange Juice,Canned Goods,Canned Vegetables,6 Orange Juice from a Local Farmer,11.67
+926,Cheddar Cheese,Dairy,Milk,4 Cheddar Cheese from a Local Farmer,15.36
+927,Tomatoes,Dairy,Yogurt,5 Tomatoes from a Local Farmer,7.54
+928,Granny Smith Apples,Frozen,Frozen Vegetables,8 Granny Smith Apples from a Local Farmer,8.45
+929,Ground Beef,Bakery,Pastries,3 Ground Beef from a Local Farmer,11.49
+930,Tomatoes,Canned Goods,Canned Meat,6 Tomatoes from a Local Farmer,10.74
+931,Cucumbers,Bakery,Cakes,7 Cucumbers from a Local Farmer,3.45
+932,Lettuce,Bakery,Bread,9 Lettuce from a Local Farmer,17.23
+933,Ground Beef,Snacks,Chips,1 Ground Beef from a Local Farmer,2.44
+934,Eggs,Frozen,Ice Cream,7 Eggs from a Local Farmer,3.82
+935,Cheddar Cheese,Produce,Vegetable,6 Cheddar Cheese from a Local Farmer,14.52
+936,Eggs,Beverages,Soda,7 Eggs from a Local Farmer,16.41
+937,Whole Milk,Produce,Fruit,8 Whole Milk from a Local Farmer,12.82
+938,Tomatoes,Beverages,Soda,6 Tomatoes from a Local Farmer,13.52
+939,Onions,Produce,Vegetable,1 Onions from a Local Farmer,16.98
+940,Carrots,Dairy,Milk,2 Carrots from a Local Farmer,16.72
+941,Granny Smith Apples,Produce,Fruit,1 Granny Smith Apples from a Local Farmer,17.74
+942,Cheddar Cheese,Bakery,Pastries,4 Cheddar Cheese from a Local Farmer,1.8
+943,Cucumbers,Beverages,Soda,7 Cucumbers from a Local Farmer,2.66
+944,Granny Smith Apples,Snacks,Chips,1 Granny Smith Apples from a Local Farmer,9.22
+945,Skim Milk,Dairy,Yogurt,10 Skim Milk from a Local Farmer,9.69
+946,Ice Cream,Snacks,Cookies,5 Ice Cream from a Local Farmer,11.57
+947,Cheddar Cheese,Snacks,Candy,9 Cheddar Cheese from a Local Farmer,4.15
+948,Spinach,Produce,Fruit,10 Spinach from a Local Farmer,9.14
+949,Ice Cream,Bakery,Pastries,1 Ice Cream from a Local Farmer,8.59
+950,Broccoli,Bakery,Pastries,8 Broccoli from a Local Farmer,12.53
+951,Red Delicious Apples,Bakery,Pastries,4 Red Delicious Apples from a Local Farmer,15.22
+952,Red Delicious Apples,Dairy,Cheese,4 Red Delicious Apples from a Local Farmer,15.8
+953,Broccoli,Frozen,Frozen Meals,8 Broccoli from a Local Farmer,1.47
+954,Ice Cream,Bakery,Pastries,4 Ice Cream from a Local Farmer,8.14
+955,Chicken Breast,Canned Goods,Canned Fruits,3 Chicken Breast from a Local Farmer,16.55
+956,Bananas,Bakery,Pastries,5 Bananas from a Local Farmer,19.61
+957,Skim Milk,Canned Goods,Canned Fruits,2 Skim Milk from a Local Farmer,12.1
+958,Ice Cream,Meat,Pork,2 Ice Cream from a Local Farmer,10.35
+959,Cheddar Cheese,Beverages,Water,1 Cheddar Cheese from a Local Farmer,19.48
+960,Onions,Snacks,Chips,9 Onions from a Local Farmer,12.42
+961,Skim Milk,Meat,Pork,7 Skim Milk from a Local Farmer,18.17
+962,Lettuce,Dairy,Milk,6 Lettuce from a Local Farmer,2.27
+963,Lettuce,Bakery,Cakes,8 Lettuce from a Local Farmer,10.25
+964,Ground Beef,Beverages,Water,7 Ground Beef from a Local Farmer,1.97
+965,Carrots,Beverages,Soda,10 Carrots from a Local Farmer,16.68
+966,Bananas,Canned Goods,Canned Fruits,10 Bananas from a Local Farmer,16.16
+967,Whole Milk,Dairy,Yogurt,5 Whole Milk from a Local Farmer,4.92
+968,Spinach,Beverages,Soda,6 Spinach from a Local Farmer,8.61
+969,Spinach,Beverages,Water,7 Spinach from a Local Farmer,1.36
+970,Focaccia,Bakery,Bread,Freshly Baked Focaccia,3.99
+971,Frozen Green Beans,Frozen,Vegetables,1 lb of Frozen Green Beans,2.49
+972,Mussels,Seafood,Shellfish,1 lb of Fresh Mussels,10.99
+973,Kiwi,Produce,Fruit,6 Fresh Kiwi,2.99
+974,Goat Cheese,Dairy,Cheese,8 oz of Goat Cheese,4.99
+975,Veal Cutlets,Meat,Beef,1 lb of Veal Cutlets,15.99
+976,Brioche,Bakery,Bread,Freshly Baked Brioche,4.99
+977,Frozen Carrots,Frozen,Vegetables,1 lb of Frozen Carrots,1.99
+978,Trout Fillet,Seafood,Fish,1 lb of Fresh Trout Fillet,9.99
+979,Raspberries,Produce,Fruit,1 lb of Fresh Raspberries,6.99
+980,Cottage Cheese,Dairy,Dairy,16 oz of Cottage Cheese,3.49
+981,Frozen Pepperoni Pizza,Frozen,Prepared Meals,12-inch Frozen Pizza with Mozzarella Cheese Pepperoni and Tomato Sauce,6.99
+982,Chicken Pot Pie,Frozen,Prepared Meals,Frozen Chicken Pot Pie with Chicken Peas Carrots and Creamy Sauce,7.49
+983,Beef Stew,Frozen,Prepared Meals,Frozen Beef Stew with Beef Chunks Potatoes Carrots and Gravy,8.99
+984,Vegetable Curry,Frozen,Prepared Meals,Frozen Vegetable Curry with Chickpeas Spinach Potatoes and Curry Sauce,6.99
+985,Shrimp Scampi,Frozen,Prepared Meals,Frozen Shrimp Scampi with Shrimp Garlic Butter Sauce and Linguine Pasta,9.99
+986,BBQ Pulled Pork,Frozen,Prepared Meals,Frozen BBQ Pulled Pork with Pork BBQ Sauce and Onions,8.49
+987,Stuffed Peppers,Frozen,Prepared Meals,Frozen Stuffed Peppers with Ground Beef Rice and Tomato Sauce,7.99
+988,Chicken Tikka Masala,Frozen,Prepared Meals,Frozen Chicken Tikka Masala with Chicken Tomato Cream Sauce and Basmati Rice,9.49
+989,Eggplant Parmesan,Frozen,Prepared Meals,Frozen Eggplant Parmesan with Eggplant Marinara Sauce and Mozzarella Cheese,7.49
+990,Beef and Broccoli,Frozen,Prepared Meals,Frozen Beef and Broccoli with Beef Broccoli and Soy Sauce,8.99
+991,Frozen Strawberries,Frozen,Fruits,1 lb of Frozen Strawberries,4.99
+992,Frozen Blueberries,Frozen,Fruits,1 lb of Frozen Blueberries,5.49
+993,Frozen Mango Chunks,Frozen,Fruits,1 lb of Frozen Mango Chunks,4.49
+994,Frozen Pineapple,Frozen,Fruits,1 lb of Frozen Pineapple,4.29
+995,Frozen Mixed Berries,Frozen,Fruits,1 lb of Frozen Mixed Berries including Strawberries Blackberries and Blueberries,7.49
+996,Carrots,Produce,Vegetables,1 lb of Fresh Carrots,1.49
+997,Broccoli,Produce,Vegetables,1 lb of Fresh Broccoli,2.29
+998,Spinach,Produce,Vegetables,1 lb of Fresh Spinach,2.99
+999,Bell Peppers,Produce,Vegetables,1 lb of Fresh Bell Peppers,3.49
+1000,Cucumbers,Produce,Vegetables,1 lb of Fresh Cucumbers,1.99
+1001,Granny Smith Apples,Produce,Fruit,10 Granny Smith Apples from a Local Farmer,3.99
+1002,Whole Milk,Dairy,Milk,1 Gallon of Whole Milk,2.49
+1003,Chicken Breast,Meat,Poultry,2 lbs of Boneless Chicken Breast,5.99
+1004,Sourdough Bread,Bakery,Bread,Freshly Baked Sourdough Bread,4.50
+1005,Frozen Peas,Frozen,Vegetables,1 lb of Frozen Peas,1.99
+1006,Salmon Fillet,Seafood,Fish,1 lb of Fresh Salmon Fillet,9.99
+1007,Bananas,Produce,Fruit,A Bunch of Bananas,1.29
+1008,White Cheddar Cheese,Dairy,Cheese,8 oz of Sharp-White Cheddar Cheese,3.49
+1009,Ground Beef,Meat,Beef,1 lb of Ground Beef,4.99
+1010,Croissant,Bakery,Pastry,Freshly Baked Croissant,2.99
+1011,Shrimp,Seafood,Shellfish,1 lb of Fresh Shrimp,12.99
+1012,Oranges,Produce,Fruit,5 Juicy Oranges,3.49
+1013,Vanilla Greek Yogurt,Dairy,Yogurt,6 oz of Vanilla Greek Yogurt,1.49
+1014,Pork Chops,Meat,Pork,2 lbs of Pork Chops,7.99
+1015,Baguette,Bakery,Bread,Freshly Baked Baguette,2.50
+1016,Frozen Mixed Vegetables,Frozen,Vegetables,1 lb of Frozen Mixed Vegetables including Carrots Peas and Corn,2.49
+1017,Tilapia Fillet,Seafood,Fish,1 lb of Fresh Tilapia Fillet,7.99
+1018,Strawberries,Produce,Fruit,1 lb of Fresh Strawberries,4.99
+1019,Unsalted Butter,Dairy,Butter,1 lb of Unsalted Butter,3.99
+1020,Turkey Breast,Meat,Poultry,2 lbs of Turkey Breast,8.99
+1021,Blueberry Muffin,Bakery,Pastry,Blueberry Muffin,1.99
+1022,Frozen French Fries,Frozen,Prepared Meals,1 lb of Frozen French Fries,2.99
+1023,Crab Legs,Seafood,Shellfish,1 lb of Fresh Crab Legs,14.99
+1024,Grapes,Produce,Fruit,1 lb of Seedless Grapes,3.99
+1025,Mozzarella Cheese,Dairy,Cheese,8 oz of Mozzarella Cheese,3.99
+1026,Lamb Chops,Meat,Lamb,1 lb of Lamb Chops,12.99
+1027,Donut,Bakery,Pastry,Glazed Donut,1.49
+1028,Frozen Chicken Nuggets,Frozen,Prepared Meals,1 lb of Frozen Chicken Nuggets,4.99
+1029,Lobster Tail,Seafood,Shellfish,1 lb of Fresh Lobster Tail,19.99
+1030,Pineapple,Produce,Fruit,1 Fresh Pineapple,2.99
+1031,Cream Cheese,Dairy,Cheese,8 oz of Cream Cheese,2.49
+1032,Beef Steak,Meat,Beef,1 lb of Beef Steak,10.99
+1033,Bagel,Bakery,Bread,Freshly Baked Bagel,1.29
+1034,Frozen Broccoli,Frozen,Vegetables,1 lb of Frozen Broccoli,1.99
+1035,Cod Fillet,Seafood,Fish,1 lb of Fresh Cod Fillet,8.99
+1036,Watermelon,Produce,Fruit,1 Whole Watermelon,5.99
+1037,Sour Cream,Dairy,Dairy,16 oz of Sour Cream,1.99
+1038,Sausage,Meat,Pork,1 lb of Pork Sausage,4.99
+1039,Cinnamon Roll,Bakery,Pastry,Freshly Baked Cinnamon Roll,2.49
+1040,Oysters,Seafood,Shellfish,1 lb of Fresh Oysters,13.99
+1041,Peaches,Produce,Fruit,5 Fresh Peaches,3.99
+1042,Parmesan Cheese,Dairy,Cheese,8 oz of Shredded Parmesan Cheese,4.99
+1043,Chicken Thighs,Meat,Poultry,2 lbs of Chicken Thighs,6.99
+1044,Rye Bread,Bakery,Bread,Freshly Baked Rye Bread,3.50
+1045,Frozen Corn,Frozen,Vegetables,1 lb of Frozen Corn,1.99
+1046,Haddock Fillet,Seafood,Fish,1 lb of Fresh Haddock Fillet,9.99
+1047,Cherries,Produce,Fruit,1 lb of Fresh Cherries,5.99
+1048,Milk,Dairy,Milk,1 Gallon of 2% Milk,2.79
+1049,Bacon,Meat,Pork,1 lb of Bacon,5.49
+1050,Pita Bread,Bakery,Bread,Freshly Baked Pita Bread,2.99
+1051,Frozen Spinach,Frozen,Vegetables,1 lb of Frozen Spinach,2.49
+1052,Clams,Seafood,Shellfish,1 lb of Fresh Clams,11.99
+1053,Plums,Produce,Fruit,5 Fresh Plums,3.49
+1054,Swiss Cheese,Dairy,Cheese,8 oz of Swiss Cheese,3.99
+1055,Duck Breast,Meat,Poultry,1 lb of Duck Breast,14.99

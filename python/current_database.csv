@@ -1,0 +1,87 @@
+grocery_id,name,category,sub_category,description,price
+1,Granny Smith Apples,Produce,Fruit,10 Granny Smith Apples from a Local Farmer,3.99
+2,Whole Milk,Dairy,Milk,1 Gallon of Whole Milk,2.49
+3,Chicken Breast,Meat,Poultry,2 lbs of Boneless Chicken Breast,5.99
+4,Sourdough Bread,Bakery,Bread,Freshly Baked Sourdough Bread,4.50
+5,Frozen Peas,Frozen,Vegetables,1 lb of Frozen Peas,1.99
+6,Salmon Fillet,Seafood,Fish,1 lb of Fresh Salmon Fillet,9.99
+7,Bananas,Produce,Fruit,A Bunch of Bananas,1.29
+8,White Cheddar Cheese,Dairy,Cheese,8 oz of Sharp-White Cheddar Cheese,3.49
+9,Ground Beef,Meat,Beef,1 lb of Ground Beef,4.99
+10,Croissant,Bakery,Pastry,Freshly Baked Croissant,2.99
+11,Shrimp,Seafood,Shellfish,1 lb of Fresh Shrimp,12.99
+12,Oranges,Produce,Fruit,5 Juicy Oranges,3.49
+13,Vanilla Greek Yogurt,Dairy,Yogurt,6 oz of Vanilla Greek Yogurt,1.49
+14,Pork Chops,Meat,Pork,2 lbs of Pork Chops,7.99
+15,Baguette,Bakery,Bread,Freshly Baked Baguette,2.50
+16,Frozen Mixed Vegetables,Frozen,Frozen Vegetables,1 lb of Frozen Mixed Vegetables including Carrots Peas and Corn,2.49
+17,Tilapia Fillet,Seafood,Fish,1 lb of Fresh Tilapia Fillet,7.99
+18,Strawberries,Produce,Fruit,1 lb of Fresh Strawberries,4.99
+19,Unsalted Butter,Dairy,Butter,1 lb of Unsalted Butter,3.99
+20,Turkey Breast,Meat,Poultry,2 lbs of Turkey Breast,8.99
+21,Blueberry Muffin,Bakery,Pastry,Blueberry Muffin,1.99
+22,Frozen French Fries,Frozen,Prepared Meals,1 lb of Frozen French Fries,2.99
+23,Crab Legs,Seafood,Shellfish,1 lb of Fresh Crab Legs,14.99
+24,Grapes,Produce,Fruit,1 lb of Seedless Grapes,3.99
+25,Mozzarella Cheese,Dairy,Cheese,8 oz of Mozzarella Cheese,3.99
+26,Lamb Chops,Meat,Lamb,1 lb of Lamb Chops,12.99
+27,Donut,Bakery,Pastry,Glazed Donut,1.49
+28,Frozen Chicken Nuggets,Frozen,Prepared Meals,1 lb of Frozen Chicken Nuggets,4.99
+29,Lobster Tail,Seafood,Shellfish,1 lb of Fresh Lobster Tail,19.99
+30,Pineapple,Produce,Fruit,1 Fresh Pineapple,2.99
+31,Cream Cheese,Dairy,Cheese,8 oz of Cream Cheese,2.49
+32,Beef Steak,Meat,Beef,1 lb of Beef Steak,10.99
+33,Bagel,Bakery,Bread,Freshly Baked Bagel,1.29
+34,Frozen Broccoli,Frozen,Vegetables,1 lb of Frozen Broccoli,1.99
+35,Cod Fillet,Seafood,Fish,1 lb of Fresh Cod Fillet,8.99
+36,Watermelon,Produce,Fruit,1 Whole Watermelon,5.99
+37,Sour Cream,Dairy,Dairy,16 oz of Sour Cream,1.99
+38,Sausage,Meat,Pork,1 lb of Pork Sausage,4.99
+39,Cinnamon Roll,Bakery,Pastry,Freshly Baked Cinnamon Roll,2.49
+40,Oysters,Seafood,Shellfish,1 lb of Fresh Oysters,13.99
+41,Peaches,Produce,Fruit,5 Fresh Peaches,3.99
+42,Parmesan Cheese,Dairy,Cheese,8 oz of Shredded Parmesan Cheese,4.99
+43,Chicken Thighs,Meat,Poultry,2 lbs of Chicken Thighs,6.99
+44,Rye Bread,Bakery,Bread,Freshly Baked Rye Bread,3.50
+45,Frozen Corn,Frozen,Vegetables,1 lb of Frozen Corn,1.99
+46,Haddock Fillet,Seafood,Fish,1 lb of Fresh Haddock Fillet,9.99
+47,Cherries,Produce,Fruit,1 lb of Fresh Cherries,5.99
+48,Milk,Dairy,Milk,1 Gallon of 2% Milk,2.79
+49,Bacon,Meat,Pork,1 lb of Bacon,5.49
+50,Pita Bread,Bakery,Bread,Freshly Baked Pita Bread,2.99
+51,Frozen Spinach,Frozen,Vegetables,1 lb of Frozen Spinach,2.49
+52,Clams,Seafood,Shellfish,1 lb of Fresh Clams,11.99
+53,Plums,Produce,Fruit,5 Fresh Plums,3.49
+54,Swiss Cheese,Dairy,Cheese,8 oz of Swiss Cheese,3.99
+55,Duck Breast,Meat,Poultry,1 lb of Duck Breast,14.99
+56,Focaccia,Bakery,Bread,Freshly Baked Focaccia,3.99
+57,Frozen Green Beans,Frozen,Vegetables,1 lb of Frozen Green Beans,2.49
+58,Mussels,Seafood,Shellfish,1 lb of Fresh Mussels,10.99
+59,Kiwi,Produce,Fruit,6 Fresh Kiwi,2.99
+60,Goat Cheese,Dairy,Cheese,8 oz of Goat Cheese,4.99
+61,Veal Cutlets,Meat,Beef,1 lb of Veal Cutlets,15.99
+62,Brioche,Bakery,Bread,Freshly Baked Brioche,4.99
+63,Frozen Carrots,Frozen,Vegetables,1 lb of Frozen Carrots,1.99
+64,Trout Fillet,Seafood,Fish,1 lb of Fresh Trout Fillet,9.99
+65,Raspberries,Produce,Fruit,1 lb of Fresh Raspberries,6.99
+66,Cottage Cheese,Dairy,Dairy,16 oz of Cottage Cheese,3.49
+67,Frozen Pepperoni Pizza,Frozen,Prepared Meals,12-inch Frozen Pizza with Mozzarella Cheese Pepperoni and Tomato Sauce,6.99
+68,Chicken Pot Pie,Frozen,Prepared Meals,Frozen Chicken Pot Pie with Chicken Peas Carrots and Creamy Sauce,7.49
+69,Beef Stew,Frozen,Prepared Meals,Frozen Beef Stew with Beef Chunks Potatoes Carrots and Gravy,8.99
+70,Vegetable Curry,Frozen,Prepared Meals,Frozen Vegetable Curry with Chickpeas Spinach Potatoes and Curry Sauce,6.99
+71,Shrimp Scampi,Frozen,Prepared Meals,Frozen Shrimp Scampi with Shrimp Garlic Butter Sauce and Linguine Pasta,9.99
+72,BBQ Pulled Pork,Frozen,Prepared Meals,Frozen BBQ Pulled Pork with Pork BBQ Sauce and Onions,8.49
+73,Stuffed Peppers,Frozen,Prepared Meals,Frozen Stuffed Peppers with Ground Beef Rice and Tomato Sauce,7.99
+74,Chicken Tikka Masala,Frozen,Prepared Meals,Frozen Chicken Tikka Masala with Chicken Tomato Cream Sauce and Basmati Rice,9.49
+75,Eggplant Parmesan,Frozen,Prepared Meals,Frozen Eggplant Parmesan with Eggplant Marinara Sauce and Mozzarella Cheese,7.49
+76,Beef and Broccoli,Frozen,Prepared Meals,Frozen Beef and Broccoli with Beef Broccoli and Soy Sauce,8.99
+77,Frozen Strawberries,Frozen,Fruits,1 lb of Frozen Strawberries,4.99
+78,Frozen Blueberries,Frozen,Fruits,1 lb of Frozen Blueberries,5.49
+79,Frozen Mango Chunks,Frozen,Fruits,1 lb of Frozen Mango Chunks,4.49
+80,Frozen Pineapple,Frozen,Fruits,1 lb of Frozen Pineapple,4.29
+81,Frozen Mixed Berries,Frozen,Fruits,1 lb of Frozen Mixed Berries including Strawberries Blackberries and Blueberries,7.49
+82,Carrots,Produce,Vegetables,1 lb of Fresh Carrots,1.49
+83,Broccoli,Produce,Vegetables,1 lb of Fresh Broccoli,2.29
+84,Spinach,Produce,Vegetables,1 lb of Fresh Spinach,2.99
+85,Bell Peppers,Produce,Vegetables,1 lb of Fresh Bell Peppers,3.49
+86,Cucumbers,Produce,Vegetables,1 lb of Fresh Cucumbers,1.99

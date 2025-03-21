@@ -42,7 +42,7 @@ function CartPage(props) {
       if (cartData && cartData.length > 0) {
         let runningTotal = 0;
         cartData.forEach(item => {
-          runningTotal += item.item_cost * item.quantity;
+          runningTotal += item.price * item.quantity;
         });
         // Round the runningTotal to two decimal places
         const roundedTotal = parseFloat(runningTotal.toFixed(2));

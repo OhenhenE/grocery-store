@@ -30,7 +30,19 @@ app.listen(PORT, () => {
 // Endpoint to send all items in groceries table in JSON
 app.get('/groceries/all', async (req, res) => {
     try {
-        const result = await pool.query('SELECT * FROM grocery_items LIMIT 20');
+        const result = await pool.query('SELECT * FROM grocery_items LIMIT 40');
+        const groceries = result.rows;
+        res.json(groceries);
+    } catch (err) {
+        console.error("Error: ", err);
+        res.status(500).send("Unable to Recieve All Groceries");
+    }
+});
+
+// Endpoint to send all items in groceries table in JSON
+app.get('/groceries/all/random', async (req, res) => {
+    try {
+        const result = await pool.query('SELECT * FROM grocery_items ORDER BY RANDOM() LIMIT 20');
         const groceries = result.rows;
         res.json(groceries);
     } catch (err) {
@@ -93,21 +105,21 @@ app.post('/groceries/search/', async (req, res) => {
 //Endpoint to (post) add item to shopping cart
 app.post("/cartpage/add/", async (req, res) => {
     try {
-        const { user_id, name, grocery_id, quantity, item_cost } = req.body;
+        const { user_id, name, grocery_id, quantity, price } = req.body;
 
         // Validate the input data (you can add more validation if needed)
-        // if (!user_id || !grocery_id || !quantity || !item_cost) {
+        // if (!user_id || !grocery_id || !quantity || !price) {
         //     return res.status(400).json({
         //         message:
-        //             "All fields are required: user_id, grocery_id, quantity, item_cost.",
+        //             "All fields are required: user_id, grocery_id, quantity, price.",
         //     });
         // }
         const query = `
-          INSERT INTO shopping_cart (user_id, name, grocery_id, quantity, item_cost)
+          INSERT INTO shopping_cart (user_id, name, grocery_id, quantity, price)
           VALUES ($1, $2, $3, $4, $5)
           RETURNING *;
       `;
-        const values = [user_id, name, grocery_id, quantity, item_cost];
+        const values = [user_id, name, grocery_id, quantity, price];
         const result = await pool.query(query, values);
 
         res

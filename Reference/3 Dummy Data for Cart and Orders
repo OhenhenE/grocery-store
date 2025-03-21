@@ -9,3 +9,6 @@ VALUES
 
 ALTER TABLE shopping_cart
 ADD COLUMN name VARCHAR(100);
+
+ALTER TABLE shopping_cart
+RENAME COLUMN item_cost TO price;

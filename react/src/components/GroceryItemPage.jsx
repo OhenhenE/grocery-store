@@ -45,7 +45,7 @@ function GroceryItemPage(props) {
             name: data.name,
             grocery_id: data.grocery_id,
             quantity: 1,
-            item_cost: data.price
+            price: data.price
           };
     
           const response = await fetch(`http://localhost:3000/cartpage/add/`, {

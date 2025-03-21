@@ -6,7 +6,7 @@ function CartCard(props) {
     props.data.quantity,
   ]);
 
-  let item_cost = props.data.item_cost * props.data.quantity;
+  let item_cost = props.data.price * props.data.quantity;
 
   return (
     <>

@@ -14,7 +14,7 @@ grocery_id,name,category,sub_category,description,price
 13,Vanilla Greek Yogurt,Dairy,Yogurt,6 oz of Vanilla Greek Yogurt,1.49
 14,Pork Chops,Meat,Pork,2 lbs of Pork Chops,7.99
 15,Baguette,Bakery,Bread,Freshly Baked Baguette,2.50
-16,Frozen Mixed Vegetables,Frozen Vegetables,1 lb of Frozen Mixed Vegetables including Carrots, Peas and Corn,2.49
+16,Frozen Mixed Vegetables,Frozen,Frozen Vegetables,1 lb of Frozen Mixed Vegetables including Carrots Peas and Corn,2.49
 17,Tilapia Fillet,Seafood,Fish,1 lb of Fresh Tilapia Fillet,7.99
 18,Strawberries,Produce,Fruit,1 lb of Fresh Strawberries,4.99
 19,Unsalted Butter,Dairy,Butter,1 lb of Unsalted Butter,3.99

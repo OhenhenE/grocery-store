@@ -968,89 +968,34 @@ grocery_id,name,category,sub_category,description,price
 967,Whole Milk,Dairy,Yogurt,5 Whole Milk from a Local Farmer,4.92
 968,Spinach,Beverages,Soda,6 Spinach from a Local Farmer,8.61
 969,Spinach,Beverages,Water,7 Spinach from a Local Farmer,1.36
-970,Focaccia,Bakery,Bread,Freshly Baked Focaccia,3.99
-971,Frozen Green Beans,Frozen,Vegetables,1 lb of Frozen Green Beans,2.49
-972,Mussels,Seafood,Shellfish,1 lb of Fresh Mussels,10.99
-973,Kiwi,Produce,Fruit,6 Fresh Kiwi,2.99
-974,Goat Cheese,Dairy,Cheese,8 oz of Goat Cheese,4.99
-975,Veal Cutlets,Meat,Beef,1 lb of Veal Cutlets,15.99
-976,Brioche,Bakery,Bread,Freshly Baked Brioche,4.99
-977,Frozen Carrots,Frozen,Vegetables,1 lb of Frozen Carrots,1.99
-978,Trout Fillet,Seafood,Fish,1 lb of Fresh Trout Fillet,9.99
-979,Raspberries,Produce,Fruit,1 lb of Fresh Raspberries,6.99
-980,Cottage Cheese,Dairy,Dairy,16 oz of Cottage Cheese,3.49
-981,Frozen Pepperoni Pizza,Frozen,Prepared Meals,12-inch Frozen Pizza with Mozzarella Cheese Pepperoni and Tomato Sauce,6.99
-982,Chicken Pot Pie,Frozen,Prepared Meals,Frozen Chicken Pot Pie with Chicken Peas Carrots and Creamy Sauce,7.49
-983,Beef Stew,Frozen,Prepared Meals,Frozen Beef Stew with Beef Chunks Potatoes Carrots and Gravy,8.99
-984,Vegetable Curry,Frozen,Prepared Meals,Frozen Vegetable Curry with Chickpeas Spinach Potatoes and Curry Sauce,6.99
-985,Shrimp Scampi,Frozen,Prepared Meals,Frozen Shrimp Scampi with Shrimp Garlic Butter Sauce and Linguine Pasta,9.99
-986,BBQ Pulled Pork,Frozen,Prepared Meals,Frozen BBQ Pulled Pork with Pork BBQ Sauce and Onions,8.49
-987,Stuffed Peppers,Frozen,Prepared Meals,Frozen Stuffed Peppers with Ground Beef Rice and Tomato Sauce,7.99
-988,Chicken Tikka Masala,Frozen,Prepared Meals,Frozen Chicken Tikka Masala with Chicken Tomato Cream Sauce and Basmati Rice,9.49
-989,Eggplant Parmesan,Frozen,Prepared Meals,Frozen Eggplant Parmesan with Eggplant Marinara Sauce and Mozzarella Cheese,7.49
-990,Beef and Broccoli,Frozen,Prepared Meals,Frozen Beef and Broccoli with Beef Broccoli and Soy Sauce,8.99
-991,Frozen Strawberries,Frozen,Fruits,1 lb of Frozen Strawberries,4.99
-992,Frozen Blueberries,Frozen,Fruits,1 lb of Frozen Blueberries,5.49
-993,Frozen Mango Chunks,Frozen,Fruits,1 lb of Frozen Mango Chunks,4.49
-994,Frozen Pineapple,Frozen,Fruits,1 lb of Frozen Pineapple,4.29
-995,Frozen Mixed Berries,Frozen,Fruits,1 lb of Frozen Mixed Berries including Strawberries Blackberries and Blueberries,7.49
-996,Carrots,Produce,Vegetables,1 lb of Fresh Carrots,1.49
-997,Broccoli,Produce,Vegetables,1 lb of Fresh Broccoli,2.29
-998,Spinach,Produce,Vegetables,1 lb of Fresh Spinach,2.99
-999,Bell Peppers,Produce,Vegetables,1 lb of Fresh Bell Peppers,3.49
-1000,Cucumbers,Produce,Vegetables,1 lb of Fresh Cucumbers,1.99
-1001,Granny Smith Apples,Produce,Fruit,10 Granny Smith Apples from a Local Farmer,3.99
-1002,Whole Milk,Dairy,Milk,1 Gallon of Whole Milk,2.49
-1003,Chicken Breast,Meat,Poultry,2 lbs of Boneless Chicken Breast,5.99
-1004,Sourdough Bread,Bakery,Bread,Freshly Baked Sourdough Bread,4.50
-1005,Frozen Peas,Frozen,Vegetables,1 lb of Frozen Peas,1.99
-1006,Salmon Fillet,Seafood,Fish,1 lb of Fresh Salmon Fillet,9.99
-1007,Bananas,Produce,Fruit,A Bunch of Bananas,1.29
-1008,White Cheddar Cheese,Dairy,Cheese,8 oz of Sharp-White Cheddar Cheese,3.49
-1009,Ground Beef,Meat,Beef,1 lb of Ground Beef,4.99
-1010,Croissant,Bakery,Pastry,Freshly Baked Croissant,2.99
-1011,Shrimp,Seafood,Shellfish,1 lb of Fresh Shrimp,12.99
-1012,Oranges,Produce,Fruit,5 Juicy Oranges,3.49
-1013,Vanilla Greek Yogurt,Dairy,Yogurt,6 oz of Vanilla Greek Yogurt,1.49
-1014,Pork Chops,Meat,Pork,2 lbs of Pork Chops,7.99
-1015,Baguette,Bakery,Bread,Freshly Baked Baguette,2.50
-1016,Frozen Mixed Vegetables,Frozen,Vegetables,1 lb of Frozen Mixed Vegetables including Carrots Peas and Corn,2.49
-1017,Tilapia Fillet,Seafood,Fish,1 lb of Fresh Tilapia Fillet,7.99
-1018,Strawberries,Produce,Fruit,1 lb of Fresh Strawberries,4.99
-1019,Unsalted Butter,Dairy,Butter,1 lb of Unsalted Butter,3.99
-1020,Turkey Breast,Meat,Poultry,2 lbs of Turkey Breast,8.99
-1021,Blueberry Muffin,Bakery,Pastry,Blueberry Muffin,1.99
-1022,Frozen French Fries,Frozen,Prepared Meals,1 lb of Frozen French Fries,2.99
-1023,Crab Legs,Seafood,Shellfish,1 lb of Fresh Crab Legs,14.99
-1024,Grapes,Produce,Fruit,1 lb of Seedless Grapes,3.99
-1025,Mozzarella Cheese,Dairy,Cheese,8 oz of Mozzarella Cheese,3.99
-1026,Lamb Chops,Meat,Lamb,1 lb of Lamb Chops,12.99
-1027,Donut,Bakery,Pastry,Glazed Donut,1.49
-1028,Frozen Chicken Nuggets,Frozen,Prepared Meals,1 lb of Frozen Chicken Nuggets,4.99
-1029,Lobster Tail,Seafood,Shellfish,1 lb of Fresh Lobster Tail,19.99
-1030,Pineapple,Produce,Fruit,1 Fresh Pineapple,2.99
-1031,Cream Cheese,Dairy,Cheese,8 oz of Cream Cheese,2.49
-1032,Beef Steak,Meat,Beef,1 lb of Beef Steak,10.99
-1033,Bagel,Bakery,Bread,Freshly Baked Bagel,1.29
-1034,Frozen Broccoli,Frozen,Vegetables,1 lb of Frozen Broccoli,1.99
-1035,Cod Fillet,Seafood,Fish,1 lb of Fresh Cod Fillet,8.99
-1036,Watermelon,Produce,Fruit,1 Whole Watermelon,5.99
-1037,Sour Cream,Dairy,Dairy,16 oz of Sour Cream,1.99
-1038,Sausage,Meat,Pork,1 lb of Pork Sausage,4.99
-1039,Cinnamon Roll,Bakery,Pastry,Freshly Baked Cinnamon Roll,2.49
-1040,Oysters,Seafood,Shellfish,1 lb of Fresh Oysters,13.99
-1041,Peaches,Produce,Fruit,5 Fresh Peaches,3.99
-1042,Parmesan Cheese,Dairy,Cheese,8 oz of Shredded Parmesan Cheese,4.99
-1043,Chicken Thighs,Meat,Poultry,2 lbs of Chicken Thighs,6.99
-1044,Rye Bread,Bakery,Bread,Freshly Baked Rye Bread,3.50
-1045,Frozen Corn,Frozen,Vegetables,1 lb of Frozen Corn,1.99
-1046,Haddock Fillet,Seafood,Fish,1 lb of Fresh Haddock Fillet,9.99
-1047,Cherries,Produce,Fruit,1 lb of Fresh Cherries,5.99
-1048,Milk,Dairy,Milk,1 Gallon of 2% Milk,2.79
-1049,Bacon,Meat,Pork,1 lb of Bacon,5.49
-1050,Pita Bread,Bakery,Bread,Freshly Baked Pita Bread,2.99
-1051,Frozen Spinach,Frozen,Vegetables,1 lb of Frozen Spinach,2.49
-1052,Clams,Seafood,Shellfish,1 lb of Fresh Clams,11.99
-1053,Plums,Produce,Fruit,5 Fresh Plums,3.49
-1054,Swiss Cheese,Dairy,Cheese,8 oz of Swiss Cheese,3.99
-1055,Duck Breast,Meat,Poultry,1 lb of Duck Breast,14.99
+970,Ice Cream,Produce,Vegetable,6 Ice Cream from a Local Farmer,10.75
+971,Lettuce,Frozen,Frozen Meals,4 Lettuce from a Local Farmer,11.95
+972,Red Delicious Apples,Canned Goods,Canned Vegetables,9 Red Delicious Apples from a Local Farmer,9.54
+973,Spinach,Bakery,Pastries,4 Spinach from a Local Farmer,5.61
+974,Chicken Breast,Frozen,Frozen Vegetables,9 Chicken Breast from a Local Farmer,2.25
+975,Orange Juice,Meat,Beef,8 Orange Juice from a Local Farmer,2.32
+976,Onions,Produce,Vegetable,3 Onions from a Local Farmer,15.63
+977,Skim Milk,Frozen,Frozen Vegetables,6 Skim Milk from a Local Farmer,14.71
+978,Broccoli,Meat,Lamb,8 Broccoli from a Local Farmer,6.32
+979,Onions,Dairy,Yogurt,10 Onions from a Local Farmer,8.52
+980,Potato Chips,Dairy,Cheese,5 Potato Chips from a Local Farmer,15.86
+981,Orange Juice,Dairy,Yogurt,7 Orange Juice from a Local Farmer,14.46
+982,Whole Milk,Snacks,Chips,3 Whole Milk from a Local Farmer,6.86
+983,Orange Juice,Beverages,Juice,1 Orange Juice from a Local Farmer,5.97
+984,Lettuce,Beverages,Juice,3 Lettuce from a Local Farmer,19.11
+985,Granny Smith Apples,Produce,Fruit,3 Granny Smith Apples from a Local Farmer,11.4
+986,Granny Smith Apples,Produce,Fruit,2 Granny Smith Apples from a Local Farmer,17.03
+987,Chicken Breast,Meat,Beef,10 Chicken Breast from a Local Farmer,9.32
+988,Cucumbers,Meat,Pork,10 Cucumbers from a Local Farmer,16.65
+989,Onions,Meat,Poultry,9 Onions from a Local Farmer,4.05
+990,Red Delicious Apples,Bakery,Cakes,4 Red Delicious Apples from a Local Farmer,1.37
+991,Red Delicious Apples,Snacks,Cookies,5 Red Delicious Apples from a Local Farmer,3.83
+992,Eggs,Snacks,Candy,7 Eggs from a Local Farmer,1.06
+993,Tomatoes,Snacks,Chips,8 Tomatoes from a Local Farmer,12.8
+994,Tomatoes,Beverages,Water,9 Tomatoes from a Local Farmer,10.33
+995,Eggs,Produce,Fruit,6 Eggs from a Local Farmer,4.17
+996,Bread,Dairy,Milk,1 Bread from a Local Farmer,7.6
+997,Potato Chips,Bakery,Cakes,7 Potato Chips from a Local Farmer,16.36
+998,Carrots,Meat,Lamb,6 Carrots from a Local Farmer,16.18
+999,Onions,Dairy,Milk,10 Onions from a Local Farmer,15.84
+1000,Granny Smith Apples,Meat,Poultry,3 Granny Smith Apples from a Local Farmer,10.27

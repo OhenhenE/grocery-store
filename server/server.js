@@ -296,6 +296,7 @@ app.get("/orders/:id", async (req, res) => {
           SELECT * 
           FROM orders
           WHERE user_id = $1
+          ORDER BY date_ordered DESC
           `;
         const result = await pool.query(query, [id]);
 

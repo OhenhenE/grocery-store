@@ -83,7 +83,7 @@ const CartPage = (props) => {
 
       const order = {
         user_id: user_id,
-        name: "Enogieru Test",
+        name: "Enogieru Ohenhen",
         order_summary: orderString,
         order_cost: orderTotal,
       };

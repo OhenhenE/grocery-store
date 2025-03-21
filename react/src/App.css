@@ -1,4 +1,4 @@
-#root {
+ #root {
   /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
@@ -44,32 +44,39 @@
   color: #888;
 }
 
-.navbar {
-  color: red;
-}
+
 
 .navbar-brand bs-navbar-brand-font-size {
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 
-.nav-link.btn-outline-dark{
-  color:#333333;
-}
+
 .nav-link.btn-outline-dark:hover {
-  /* border-color: #FF5733; Optional: change the border color on hover */
-  color: #FF5733; /* Optional: change the text color on hover */
-  /* border: none; */
+ 
+  color: #4CAF50; 
+  background-color: white;
 }
 
+#clipboard:hover{
+  color: #4CAF50; 
+  background-color: white;
+}
+#person:hover {
+  color: #4CAF50; 
+  background-color: white;
+}
 .card-text {
-  border:red;
+  border:rgb(26, 255, 0);
 }
 
 .btn btn-primary {
-  color:red;
+  color:rgb(0, 255, 34);
 }
 
+.a.btn.btn-primary:hover {
+  background-color: red;
+}
 .cards-wrapper {
   display: flex;
   justify-content: center;
@@ -78,6 +85,7 @@
   max-width: 100%;
   max-height: 100%;
 }
+
 .card {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
@@ -97,8 +105,8 @@
   transform: translateY(-50%);
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .card img {
     height: 11em;
   }
-}
+} */

@@ -29,14 +29,19 @@ function OrdersPage(props) {
     <>
     <SubHeader />
     <Header setGroceryData={props.setGroceryData} />
-    <div>
+    <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
       <br></br>
-      <h1>Order History</h1>
+      <h1 style={{color:"#333333"}}>Order History</h1>
 
       {orders.length === 0 ? (
         <p>No orders found for this user.</p>
       ) : (
-        <table className="table table-striped">
+        <table className="table table-striped" style={{
+          border: "1px solid green",
+          maxWidth:"fit-content",
+          marginTop:"20px"
+          
+          }}>
           <thead>
             <tr>
               <th scope="col">Order Date</th>

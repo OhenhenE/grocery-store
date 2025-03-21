@@ -25,13 +25,13 @@ function LoginForm(props) {
       <SubHeader />
       <Header setGroceryData={props.setGroceryData} />
       <div>
-        <div>
+        {/* <div>
           <button>Sign In</button>
 
           <button>
             <Link className="nav-link" to="/Register">Register</Link>
           </button>
-        </div>
+        </div> */}
 
         <div className="container">
           <form onSubmit={handleLogin} className="mt-5">
@@ -44,10 +44,11 @@ function LoginForm(props) {
                 placeholder="Enter username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
+                style={{maxWidth:"75%", border:"solid 1px #4CAF50", marginLeft:"200px"}}
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password" style={{paddingTop:"20px"}}>Password</label>
               <input
                 type="password"
                 className="form-control"
@@ -55,9 +56,10 @@ function LoginForm(props) {
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
+                style={{maxWidth:"75%", border:"solid 1px #4CAF50", marginLeft:"200px"}}
               />
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" style={{backgroundColor:"#4CAF50", border:"solid 1px #4CAF50", margin:"20px"}} className="btn btn-primary">
               Login
             </button>
           </form>

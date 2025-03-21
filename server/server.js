@@ -378,8 +378,9 @@ app.patch("/cartpage/update", async (req, res) => {
 app.post("/user/login", async (req, res) => {
     const { username, password } = req.body;
     try {
+        console.log(username + password)
         const result = await pool.query(
-            "SELECT * FROM users WHERE username = $1 AND password = $2",
+            "SELECT * FROM users WHERE email = $1 AND password = $2",
             [username, password]
         );
         if (result.rows.length > 0) {

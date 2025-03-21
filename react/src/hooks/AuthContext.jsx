@@ -1,11 +1,18 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-// Creating an authentication context
 const AuthContext = createContext(null);
 
-// Auth provider component that wraps your app components
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        const storedUser = JSON.parse(localStorage.getItem('user'));
+        if (storedUser) {
+            setUser(storedUser);
+        }
+    }, []);
 
     const login = async (username, password) => {
         try {
@@ -14,14 +21,17 @@ export const AuthProvider = ({ children }) => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ username, password }),
+                body: JSON.stringify({ "username" : username, "password" : password }),
             });
             const data = await response.json();
             if (data.user_id) {
-                setUser({
+                const userData = {
                     name: data.name,
-                    user_id: data.user_id // Storing the uid returned from the server
-                });
+                    user_id: data.user_id
+                };
+                setUser(userData);
+                localStorage.setItem('user', JSON.stringify(userData));
+                navigate('/');
             } else {
                 throw new Error(data.message || 'Login failed');
             }
@@ -30,9 +40,9 @@ export const AuthProvider = ({ children }) => {
         }
     };
 
-
     const logout = () => {
-        setUser(null); // In real scenarios, you might want to invalidate the session on the server as well
+        setUser(null);
+        localStorage.removeItem('user');
     };
 
     return (
@@ -42,5 +52,4 @@ export const AuthProvider = ({ children }) => {
     );
 };
 
-// Hook to use authentication
 export const useAuth = () => useContext(AuthContext);

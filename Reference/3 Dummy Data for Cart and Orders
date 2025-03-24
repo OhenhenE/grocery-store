@@ -1,5 +1,5 @@
 INSERT INTO users (name, email, password)
-VALUES ('Enogieru Ohenhen', 'enogieru.ohenhen@example.com', 'securepassword123');
+VALUES ('Enogieru Ohenhen', 'wasadmin@mail.com', 'password');
 
 INSERT INTO orders (user_id, order_summary, name, order_cost, date_ordered, pickup_time)
 VALUES
